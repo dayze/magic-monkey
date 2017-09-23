@@ -1,0 +1,19 @@
+{
+  "name": "magic-monkey",
+  "authors": [
+    "Jérémy Habit"
+  ],
+  "description": "Magic Monkey is a framework CSS offering practical classes and a grid based on Flexbox.",
+  "main": "css/knacss.css",
+  "keywords": [
+    "css",
+    "framework",
+    "responsive",
+    "rwd"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "README.md"
+  ]
+}
