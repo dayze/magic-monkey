@@ -16,8 +16,9 @@
     "**/.*",
     "README.md",
     "modele.css",
-    "src/*",
-    ".*",
-    "bower.json"
+    "config.rb",
+    ".bower.json",
+    "bower.json",
+    "src"
   ]
 }
