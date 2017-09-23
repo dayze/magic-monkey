@@ -1,0 +1,126 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ margin MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    /* all */
+
+    .margin-auto-#{nth($breakpoint, 1)} {
+      margin: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-#{nth($breakpoint, 1)} {
+        margin: #{$val}px;
+      }
+    }
+
+    .margin-#{nth($breakpoint, 1)} {
+      @extend .margin-15-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ LEFT  */
+
+    .margin-auto-left-#{nth($breakpoint, 1)} {
+      margin-left: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-left-#{nth($breakpoint, 1)} {
+        margin-left: #{$val}px;
+      }
+    }
+
+    .margin-left-#{nth($breakpoint, 1)} {
+      @extend .margin-15-left-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ BOTTOM  */
+
+    .margin-auto-bottom-#{nth($breakpoint, 1)} {
+      margin-bottom: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-bottom-#{nth($breakpoint, 1)} {
+        margin-bottom: #{$val}px;
+      }
+    }
+
+    .margin-bottom-#{nth($breakpoint, 1)} {
+      @extend .margin-15-bottom-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ RIGHT  */
+
+    .margin-auto-right-#{nth($breakpoint, 1)} {
+      margin-right: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-right-#{nth($breakpoint, 1)} {
+        margin-right: #{$val}px;
+      }
+    }
+
+    .margin-right-#{nth($breakpoint, 1)} {
+      @extend .margin-15-right-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ TOP  */
+
+    .margin-auto-top-#{nth($breakpoint, 1)} {
+      margin-top: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-top-#{nth($breakpoint, 1)} {
+        margin-top: #{$val}px;
+      }
+    }
+
+    .margin-top-#{nth($breakpoint, 1)} {
+      @extend .margin-15-top-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ RIGHT/LEFT  */
+
+    .margin-auto-right-left-#{nth($breakpoint, 1)} {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-right-left-#{nth($breakpoint, 1)} {
+        margin-right: #{$val}px;
+        margin-left: #{$val}px;
+      }
+    }
+
+    .margin-right-left-#{nth($breakpoint, 1)} {
+      @extend .margin-15-right-left-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ TOP/BOTTOM  */
+
+    .margin-auto-top-bottom-#{nth($breakpoint, 1)} {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .margin-#{$val}-top-bottom-#{nth($breakpoint, 1)} {
+        margin-top: #{$val}px;
+        margin-bottom: #{$val}px;
+      }
+    }
+
+    .margin-top-bottom-#{nth($breakpoint, 1)} {
+      @extend .margin-15-top-bottom-#{nth($breakpoint, 1)};
+    }
+  }
+
+}
+
+/* #########################  end : MARGIN  ######################### */

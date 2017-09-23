@@ -1,0 +1,302 @@
+/* #########################  start : ANIMATION  ######################### */
+
+/* :::: SPIN :::: */
+
+/* requirements : block, inline-block */
+
+.anim-spin, .hover-anim-spin:hover {
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        -ms-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+/* :::: ZOOM :::: */
+
+/* requirements : block, inline-block */
+
+.anim-zoom {
+    -webkit-animation: zoom 0.7s forwards;
+    animation: zoom 0.7s forwards;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/* :::: CLIMB :::: */
+
+/* requirements : position something abs, rel, fix etc */
+
+.anim-climb {
+    -webkit-animation: climb 0.7s forwards;
+    animation: climb 0.7s forwards;
+}
+
+@-webkit-keyframes climb {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes climb {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+/* :::: BACKWARD :::: */
+
+/* requirements : position something abs, rel, fix etc */
+
+.anim-backward {
+    -webkit-animation: backward 0.7s forwards;
+    animation: backward 0.7s forwards;
+}
+
+@-webkit-keyframes backward {
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes backward {
+    from {
+        right: -300px;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+/* :::: FORWARD :::: */
+
+/* requirements : position something abs, rel, fix etc */
+
+.anim-forward {
+    -webkit-animation: forward 0.7s forwards;
+    animation: forward 0.7s forwards;
+}
+
+@-webkit-keyframes forward {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes forward {
+    from {
+        left: -300px;
+        opacity: 0;
+    }
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+/* :::: FALL :::: */
+
+/* requirements : position something abs, rel, fix etc */
+
+.anim-fall {
+    -webkit-animation: fall 0.7s forwards;
+    animation: fall 0.7s forwards;
+}
+
+@-webkit-keyframes fall {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes fall {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+/* :::: FADE IN :::: */
+
+.anim-fadein {
+    -webkit-animation: fadein 2s forwards;
+    animation: fadein 2s forwards;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* :::: FADE OUT :::: */
+
+.anim-fadeout {
+    -webkit-animation: fadeout 2s forwards;
+    animation: fadeout 2s forwards;
+}
+
+@-webkit-keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* :::: ANIMATION DURATION :::: */
+
+[class*="anim-"].very-fast {
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+}
+
+[class*="anim-"].fast {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+[class*="anim-"].normal {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+[class*="anim-"].slow {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+[class*="anim-"].very-slow {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+/* :::: ANIMATION DELAY :::: */
+
+[class*="anim-"].after-1sec {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+[class*="anim-"].after-2sec {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+[class*="anim-"].after-2sec {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+/* :::: ANIMATION ITERATION :::: */
+
+[class*="anim-"].infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+[class*="anim-"].once {
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+[class*="anim-"].twice {
+    -webkit-animation-iteration-count: 2;
+    animation-iteration-count: 2;
+}
+
+/* #########################  end : ANIMATION  ######################### */

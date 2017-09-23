@@ -1,0 +1,24 @@
+/* #########################  start : SELECTION TEXT  ######################### */
+
+.select-none {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}
+
+.select-ok {
+  -webkit-user-select: text; /* Chrome all / Safari all */
+  -moz-user-select: text; /* Firefox all */
+  -ms-user-select: text; /* IE 10+ */
+  user-select: text; /* Likely future */
+}
+
+.select-all {
+  -webkit-user-select: all; /* Chrome 49+ */
+  -moz-user-select: all; /* Firefox 43+ */
+  -ms-user-select: all; /* No support yet */
+  user-select: all; /* Likely future */
+}
+
+/* #########################  end : SELECTION TEXT  ######################### */

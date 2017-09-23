@@ -1,0 +1,68 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ LIST MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    /* #########################  start : LISTE  ######################### */
+
+    .list-unstyled-#{nth($breakpoint, 1)}, .list-unstyled-#{nth($breakpoint, 1)} > ul, .list-unstyled-#{nth($breakpoint, 1)} > ol {
+      padding-left: 0;
+      margin: 0;
+      list-style: none;
+      letter-spacing: -0.3em;
+    }
+
+    .list-inline-#{nth($breakpoint, 1)} > li,
+    .list-inline-#{nth($breakpoint, 1)} > ul > li,
+    .list-inline-#{nth($breakpoint, 1)} > ol > li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .list-inline-#{nth($breakpoint, 1)} > li:last-of-type,
+    .list-inline-#{nth($breakpoint, 1)} > ul > li:last-of-type,
+    .list-inline-#{nth($breakpoint, 1)} > ol > li:last-of-type {
+      margin-right: 0;
+    }
+
+    .list-separator-#{nth($breakpoint, 1)} > li,
+    .list-separator-#{nth($breakpoint, 1)} > ul > li,
+    .list-separator-#{nth($breakpoint, 1)} > ol > li {
+      padding-right: 15px;
+      border-right: 1px solid #c0c0c0;
+    }
+
+    .list-separator-#{nth($breakpoint, 1)} > li:last-of-type,
+    .list-separator-#{nth($breakpoint, 1)} > ul > li:last-of-type,
+    .list-separator-#{nth($breakpoint, 1)} > ol > li:last-of-type,
+    .list-no-separator-#{nth($breakpoint, 1)} > li,
+    .list-no-separator-#{nth($breakpoint, 1)} > ul > li,
+    .list-no-separator-#{nth($breakpoint, 1)} > ol > li {
+      padding-right: inherit;
+      border-right: none;
+    }
+
+    .list-block-#{nth($breakpoint, 1)} > li,
+    .list-block-#{nth($breakpoint, 1)} > ul > li,
+    .list-block-#{nth($breakpoint, 1)} > ol > li {
+      display: block;
+      margin-right: 0;
+    }
+
+    @each $type in $LST_LIST-TYPES {
+      .list-style-#{$type}-#{nth($breakpoint, 1)},
+      .list-style-#{$type}-#{nth($breakpoint, 1)} > ul,
+      .list-style-#{$type}-#{nth($breakpoint, 1)} > ol {
+        list-style-type: #{$type};
+      }
+    }
+
+    /* #########################  end : LISTE  ######################### */
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+

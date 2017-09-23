@@ -1,0 +1,9 @@
+/* #########################  start : BG-COLOR  ######################### */
+
+@each $color in $LST_COLORS {
+  .bg-#{nth($color, 1)}, .hover-bg-#{nth($color, 1)}:hover {
+    background-color: #{nth($color, 2)};
+  }
+}
+
+/* #########################  end : BG-COLOR  ######################### */

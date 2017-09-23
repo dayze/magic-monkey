@@ -1,0 +1,85 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ Border COLOR MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    .border-transparent-#{nth($breakpoint, 1)}, .hover-border-transparent-#{nth($breakpoint, 1)}:hover {
+      border-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-#{nth($breakpoint, 1)}:hover {
+        border-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-left-#{nth($breakpoint, 1)}, .hover-border-transparent-left-#{nth($breakpoint, 1)}:hover {
+      border-left-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-left-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-left-#{nth($breakpoint, 1)}:hover {
+        border-left-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-bottom-#{nth($breakpoint, 1)}, .hover-border-transparent-bottom-#{nth($breakpoint, 1)}:hover {
+      border-bottom-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-bottom-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-bottom-#{nth($breakpoint, 1)}:hover {
+        border-bottom-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-right-#{nth($breakpoint, 1)}, .hover-border-transparent-right-#{nth($breakpoint, 1)}:hover {
+      border-right-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-right-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-right-#{nth($breakpoint, 1)}:hover {
+        border-right-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-top-#{nth($breakpoint, 1)}, .hover-border-transparent-top-#{nth($breakpoint, 1)}:hover {
+      border-top-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-top-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-top-#{nth($breakpoint, 1)}:hover {
+        border-top-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-right-left-#{nth($breakpoint, 1)}, .hover-border-transparent-right-left-#{nth($breakpoint, 1)}:hover {
+      border-right-color: transparent;
+      border-left-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-#{nth($color, 1)}-right-left-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-right-left-#{nth($breakpoint, 1)}:hover {
+        border-left-color: #{nth($color, 2)};
+        border-right-color: #{nth($color, 2)};
+      }
+    }
+
+    .border-transparent-top-bottom-#{nth($breakpoint, 1)}, .hover-border-transparent-top-bottom-#{nth($breakpoint, 1)}:hover {
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+    }
+
+    @each $color in $LST_COLORS {
+      .border-yin-top-bottom-#{nth($breakpoint, 1)}, .hover-border-#{nth($color, 1)}-top-bottom-#{nth($breakpoint, 1)}:hover {
+        border-bottom-color: #{nth($color, 2)};
+        border-top-color: #{nth($color, 2)};
+      }
+    }
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

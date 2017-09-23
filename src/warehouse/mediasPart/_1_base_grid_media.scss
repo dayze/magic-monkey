@@ -1,0 +1,425 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ BASE GRID MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    .row-#{nth($breakpoint, 1)}, .flex-row-#{nth($breakpoint, 1)} {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+
+    .row-reverse-#{nth($breakpoint, 1)}, .flex-row-reverse-#{nth($breakpoint, 1)} {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse;
+    }
+
+    .row-column-#{nth($breakpoint, 1)}, .flex-column-#{nth($breakpoint, 1)} {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    .row-column-reverse-#{nth($breakpoint, 1)}, .flex-column-reverse-#{nth($breakpoint, 1)} {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+    }
+
+    .row-column-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .flex-column-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .row-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .flex-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"] {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+
+    @each $val in $LST_VALUES {
+      .row-cell-padding-#{$val}-#{nth($breakpoint, 1)} > [class^="cell-"]:not([class*="padding-"]) {
+        padding: #{$val}px;
+      }
+    }
+
+    /* #########################  start : DISPLAY  ######################### */
+
+    .hide-#{nth($breakpoint, 1)},
+    .none-box-#{nth($breakpoint, 1)} {
+      display: none;
+    }
+
+    .show-#{nth($breakpoint, 1)},
+    .block-box-#{nth($breakpoint, 1)},
+    .block {
+      display: block;
+    }
+
+    .inline-box-#{nth($breakpoint, 1)},
+    .inline-#{nth($breakpoint, 1)} {
+      display: inline;
+    }
+
+    .inline-block-#{nth($breakpoint, 1)},
+    .inline-block-box-#{nth($breakpoint, 1)},
+    .inline.block-#{nth($breakpoint, 1)} {
+      display: inline-block;
+    }
+
+    .flex-#{nth($breakpoint, 1)},
+    .flex-box-#{nth($breakpoint, 1)} {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+
+    .inline-flex-#{nth($breakpoint, 1)},
+    .inline-flex-box-#{nth($breakpoint, 1)},
+    .inline-#{nth($breakpoint, 1)}.flex-#{nth($breakpoint, 1)} {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+    }
+
+    /* #########################  end : DISPLAY  ######################### */
+
+    /* CELLS */
+
+    .cell-rest-#{nth($breakpoint, 1)},
+    .cell-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-rest-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-#{nth($breakpoint, 1)} {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin: $CELLS_MARGIN;
+    }
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      .cell-#{$i}-#{nth($breakpoint, 1)}, [class^="cell-"].c-#{$i}-#{nth($breakpoint, 1)} {
+        flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - (#{$CELLS_MARGIN} * 2));
+        -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - (#{$CELLS_MARGIN} * 2));
+        margin: $CELLS_MARGIN;
+      }
+    }
+
+    /* :::: flex-content-around and flex-content-between margin for cells (not working with cell-rest !) :::: */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class*="row"].flex-x-around-#{nth($breakpoint, 1)} > [class*="cell-#{$i}"],
+      [class*="row"].flex-x-between-#{nth($breakpoint, 1)} > [class*="cell-#{$i}"],
+      [class*="row"].flex-x-around-#{nth($breakpoint, 1)} > [class^="cell-"][class*="c-#{$i}"],
+      [class*="row"].flex-x-between-#{nth($breakpoint, 1)} > [class^="cell-"][class*="c-#{$i}"] {
+        flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+        -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+      }
+    }
+
+    /* margins */
+
+    /* :::: cells margins :::: */
+
+    /* :::: 10px :::: */
+
+    .cell-rest-margin-10-#{nth($breakpoint, 1)}
+    .cell-margin-10-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-rest-margin-10-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-margin-10-#{nth($breakpoint, 1)} {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin: 10px;
+    }
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      .cell-#{$i}-margin-10-#{nth($breakpoint, 1)},
+      [class^="cell-"].c-#{$i}-margin-10-#{nth($breakpoint, 1)} {
+        flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 20px);
+        -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 20px);
+        margin: 10px;
+      }
+    }
+
+    /* :::: 5px :::: */
+
+    .cell-rest-margin-5-#{nth($breakpoint, 1)},
+    .cell-margin-5-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-rest-margin-5-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-margin-5-#{nth($breakpoint, 1)} {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin: 5px;
+    }
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      .cell-#{$i}-margin-5-#{nth($breakpoint, 1)},
+      [class^="cell-"].c-#{$i}-margin-5-#{nth($breakpoint, 1)} {
+        flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+        -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+        margin: 5px;
+      }
+    }
+
+    /* :::: 0px :::: */
+
+    .cell-rest-margin-0-#{nth($breakpoint, 1)},
+    .cell-margin-0-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-rest-margin-0-#{nth($breakpoint, 1)},
+    [class^="cell-"].c-margin-0-#{nth($breakpoint, 1)} {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      margin: 0;
+    }
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      .cell-#{$i}-margin-0-#{nth($breakpoint, 1)},
+      [class^="cell-"].c-#{$i}-margin-0-#{nth($breakpoint, 1)} {
+        flex-basis: nth($LST_CELLS_WIDTH, $i);
+        -ms-flex-preferred-size: nth($LST_CELLS_WIDTH, $i);
+        margin: 0;
+      }
+    }
+
+    /* :::: push :::: */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"].push-#{$i}-#{nth($breakpoint, 1)} {
+        left: nth($LST_CELLS_WIDTH, $i);
+      }
+    }
+
+    [class^="cell-"].push-0-#{nth($breakpoint, 1)} {
+      left: 0;
+    }
+
+    /* :::: pull :::: */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"].pull-#{$i}-#{nth($breakpoint, 1)} {
+        right: nth($LST_CELLS_WIDTH, $i);
+      }
+    }
+
+    [class^="cell-"].pull-0-#{nth($breakpoint, 1)} {
+      right: 0;
+    }
+
+    /* :::: offsets :::: */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"].offset-#{$i}-#{nth($breakpoint, 1)} {
+        margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + #{$CELLS_MARGIN});
+      }
+    }
+
+    [class^="cell-"].offset-0-#{nth($breakpoint, 1)} {
+      margin-left: calc(0% + 15px);
+    }
+
+    /* offset marg 10 */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"][class*="-margin-10"]:not([class*="-margin-10-"]).offset-#{$i}-#{nth($breakpoint, 1)} {
+        margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + 10px);
+      }
+    }
+
+    [class^="cell-"][class*="-margin-10"]:not([class*="-margin-10-"]).offset-0-#{nth($breakpoint, 1)} {
+      margin-left: calc(0% + 10px);
+    }
+
+    /* offset marg 5 */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"][class*="-margin-5"]:not([class*="-margin-5-"]).offset-#{$i}-#{nth($breakpoint, 1)} {
+        margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + 5px);
+      }
+    }
+
+    [class^="cell-"][class*="-margin-5"]:not([class*="-margin-5-"]).offset-0-#{nth($breakpoint, 1)} {
+      margin-left: calc(0% + 5px);
+    }
+
+    /* offset marg 0 */
+
+    @for $i from length($LST_CELLS_WIDTH) through 1 {
+      [class^="cell-"][class*="-margin-0"]:not([class*="-margin-0-"]).offset-#{$i}-#{nth($breakpoint, 1)} {
+        margin-left: nth($LST_CELLS_WIDTH, $i);
+      }
+    }
+
+    [class^="cell-"][class*="-margin-0"]:not([class*="-margin-0-"]).offset-0-#{nth($breakpoint, 1)} {
+      margin-left: 0;
+    }
+
+    /* WIDTH */
+
+    @for $i from 10 through 1 {
+      .width-#{$i}0-#{nth($breakpoint, 1)} {
+        width: #{$i}0%;
+      }
+    }
+
+    /* :::: float :::: */
+    .float-none-#{nth($breakpoint, 1)} {
+      float: none;
+    }
+
+    .float-left-#{nth($breakpoint, 1)} {
+      float: left;
+    }
+
+    .float-right-#{nth($breakpoint, 1)} {
+      float: right;
+    }
+
+    /* #########################  start : FLEX WRAP  ######################### */
+
+    .flex-nowrap-#{nth($breakpoint, 1)} {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+
+    .flex-wrap-#{nth($breakpoint, 1)} {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+
+    .flex-wrap-reverse-#{nth($breakpoint, 1)} {
+      -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+    }
+
+    /* #########################  end : FLEX WRAP  ######################### */
+
+    /* #########################  start : FLEX HORIZONTAL  ######################### */
+
+    .flex-x-start-#{nth($breakpoint, 1)} {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+
+    .flex-x-end-#{nth($breakpoint, 1)} {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+    }
+
+    .flex-x-center-#{nth($breakpoint, 1)} {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+    }
+
+    .flex-x-around-#{nth($breakpoint, 1)} {
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+    }
+
+    .flex-x-between-#{nth($breakpoint, 1)} {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    .flex-x-evenly-#{nth($breakpoint, 1)} {
+      -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+    }
+
+    /* #########################  end : FLEX HORIZONTAL  ######################### */
+
+    /* #########################  start : FLEX VERTICAL  ######################### */
+
+    .flex-y-start-#{nth($breakpoint, 1)} {
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+    }
+
+    .flex-y-end-#{nth($breakpoint, 1)} {
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+    }
+
+    .flex-y-center-#{nth($breakpoint, 1)} {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .flex-y-baseline-#{nth($breakpoint, 1)} {
+      -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+      align-items: baseline;
+    }
+
+    .flex-y-stretch-#{nth($breakpoint, 1)} {
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+    }
+
+    /* #########################  end : FLEX VERTICAL  ######################### */
+
+    /* #########################  start : FLEX SELF ALIGN VERTICAL  ######################### */
+
+    .flex-item-y-start-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: start;
+      align-self: flex-start;
+    }
+
+    .flex-item-y-end-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+    }
+
+    .flex-item-y-center-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: center;
+      align-self: center;
+    }
+
+    .flex-item-y-baseline-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: baseline;
+      align-self: baseline;
+    }
+
+    .flex-item-y-stretch-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: stretch;
+      align-self: stretch;
+    }
+
+    .flex-item-y-auto-#{nth($breakpoint, 1)} {
+      -ms-flex-item-align: auto;
+      align-self: auto;
+    }
+
+    /* #########################  end : FLEX SELF ALIGN VERTICAL  ######################### */
+
+    /* #########################  start : FLEX ORDER  ######################### */
+
+    /* :::: order :::: */
+
+    @for $i from 12 through 0 {
+      .flex-item-order-#{$i}-#{nth($breakpoint, 1)} {
+        order: $i - 1;
+        -webkit-box-ordinal-group: $i - 1;
+        -ms-flex-order: $i - 1;
+      }
+    }
+
+    /* #########################  end : FLEX ORDER  ######################### */
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

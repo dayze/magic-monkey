@@ -1,0 +1,28 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ Table MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    table.airy-rows-#{nth($breakpoint, 1)} td,
+    table.airy-rows-#{nth($breakpoint, 1)} th,
+    table.standard-#{nth($breakpoint, 1)} td,
+    table.standard-#{nth($breakpoint, 1)} th {
+      padding: 10px;
+    }
+
+    table.large-rows-#{nth($breakpoint, 1)} td,
+    table.large-rows-#{nth($breakpoint, 1)} th {
+      padding: 20px
+    }
+
+    table.giant-rows-#{nth($breakpoint, 1)} td,
+    table.giant-rows-#{nth($breakpoint, 1)} th {
+      padding: 30px
+    }
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

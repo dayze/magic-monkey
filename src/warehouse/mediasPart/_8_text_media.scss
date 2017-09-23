@@ -1,0 +1,33 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ TEXT MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+    @each $txt-size in $TXT_SIZES {
+      .txt-size-#{nth($txt-size, 1)}-#{nth($breakpoint, 1)} {
+        font-size: #{nth($txt-size, 2)}rem;
+      }
+    }
+
+    /* ::::: align ::::: */
+    .align-center-#{nth($breakpoint, 1)} {
+      text-align: center;
+    }
+
+    .align-left-#{nth($breakpoint, 1)} {
+      text-align: left;
+    }
+
+    .align-right-#{nth($breakpoint, 1)} {
+      text-align: right;
+    }
+
+    .align-justify-#{nth($breakpoint, 1)} {
+      text-align: justify;
+    }
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

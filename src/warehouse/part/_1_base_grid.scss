@@ -1,0 +1,599 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before {
+  z-index: 1;
+}
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #404852;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+}
+
+li {
+  letter-spacing: normal;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+pre {
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+pre, pre code, .editor-content, .overflow {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: inherit;
+}
+
+table td {
+  vertical-align: initial;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[disabled] {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  cursor: not-allowed;
+}
+
+/* #########################  start : responsive img video iframe  ######################### */
+
+img.responsive-img, video.responsive-video, .editor-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.responsive-wrapper iframe, .responsive-wrapper object, .responsive-wrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* #########################  end : IMG  ######################### */
+
+/* #########################  start : NOTIFICATION  ######################### */
+
+[class*="note-"] {
+  border: 1px solid;
+  padding: 5px;
+  display: block;
+}
+
+.note-error {
+  border-color: #ebccd1;
+  background-color: #f2dede;
+  color: #a94442;
+}
+
+.note-warning {
+  border-color: #faebcc;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+
+.note-info {
+  border-color: #bce8f1;
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+.note-success {
+  border-color: #d6e9c6;
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+/* #########################  end : NOTIFICATION  ######################### */
+
+/* #########################  start : CONTAINER  ######################### */
+
+.container-giant {
+  max-width: 2000px;
+}
+
+.container-great {
+  max-width: 1850px;
+}
+
+.container-big {
+  max-width: 1650px;
+}
+
+.container-medium {
+  max-width: 1350px;
+}
+
+.container {
+  max-width: 1150px;
+}
+
+.container-small {
+  max-width: 850px;
+}
+
+.container-tiny {
+  max-width: 650px;
+}
+
+.floats-box::after, .floats-box::before {
+  content: "";
+  display: table;
+}
+
+.floats-box::after {
+  clear: both;
+}
+
+/* #########################  end : CONTAINER  ######################### */
+
+/* #########################  start : WIDTH  ######################### */
+
+@for $i from 10 through 1 {
+  .width-#{$i}0 {
+    width: #{$i}0%;
+  }
+}
+
+/* #########################  end : WIDTH  ######################### */
+
+/* #########################  start : FLOAT  ######################### */
+
+.float-none {
+  float: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+/* #########################  end : FLOAT  ######################### */
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: => GRILLE
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+*/
+
+/* #########################  start : ROW  ######################### */
+
+[class^="row"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row, .flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.row-reverse, .flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.row-column, .flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.row-column-reverse, .flex-column-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.row-column > [class^="cell-"],
+.flex-column > [class^="cell-"],
+.row-column-reverse > [class^="cell-"],
+.flex-column-reverse > [class^="cell-"] {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+}
+
+@each $val in $LST_VALUES {
+  .row-cell-padding-#{$val} > [class^="cell-"]:not([class*="padding-"]) {
+    padding: #{$val}px;
+  }
+}
+
+.row-cell-padding {
+  @extend .row-cell-padding-15;
+}
+
+/* #########################  end : ROW  ######################### */
+
+/* #########################  start : DISPLAY  ######################### */
+
+.hide, .none-box {
+  display: none;
+}
+
+.show, .block-box, .block {
+  display: block;
+}
+
+.inline-box, .inline {
+  display: inline;
+}
+
+.inline-block, .inline-block-box, .inline.block {
+  display: inline-block;
+}
+
+.flex, .flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inline-flex, .inline-flex-box, .inline.flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* #########################  end : DISPLAY  ######################### */
+
+/* #########################  start : CELLS  ######################### */
+
+[class^="cell-"] {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.cell-rest, .cell- {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: $CELLS_MARGIN;
+}
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  .cell-#{$i} {
+    flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - (#{$CELLS_MARGIN} * 2));
+    -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - (#{$CELLS_MARGIN} * 2));
+    margin: $CELLS_MARGIN;
+  }
+}
+
+/* :::: flex-content-around and flex-content-between margin for cells (not working with cell-rest !) :::: */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class*="row"].flex-x-around > [class*="cell-#{$i}"],
+  [class*="row"].flex-x-between > [class*="cell-#{$i}"],
+  [class*="row"].flex-x-around > [class^="cell-"][class*="c#{$i}"],
+  [class*="row"].flex-x-between > [class^="cell-"][class*="c#{$i}"] {
+    flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+    -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+  }
+}
+
+/* :::: cells margins :::: */
+
+/* :::: 10px :::: */
+
+.cell-rest-margin-10, .cell-margin-10 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 10px;
+}
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  .cell-#{$i}-margin-10 {
+    flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 20px);
+    -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 20px);
+    margin: 10px;
+  }
+}
+
+/* :::: 5px :::: */
+
+.cell-rest-margin-5, .cell-margin-5 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 5px;
+}
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  .cell-#{$i}-margin-5 {
+    flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+    -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
+    margin: 5px;
+  }
+}
+
+/* :::: 0px :::: */
+
+.cell-rest-margin-0, .cell-margin-0 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+}
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  .cell-#{$i}-margin-0 {
+    flex-basis: nth($LST_CELLS_WIDTH, $i);
+    -ms-flex-preferred-size: nth($LST_CELLS_WIDTH, $i);
+    margin: 0;
+  }
+}
+
+/* :::: push :::: */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"].push-#{$i} {
+    left: nth($LST_CELLS_WIDTH, $i);
+  }
+}
+
+[class^="cell-"].push-0 {
+  left: 0;
+}
+
+/* :::: pull :::: */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"].pull-#{$i} {
+    right: nth($LST_CELLS_WIDTH, $i);
+  }
+}
+
+[class^="cell-"].pull-0 {
+  right: 0;
+}
+
+/* :::: offsets :::: */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"].offset-#{$i} {
+    margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + #{$CELLS_MARGIN});
+  }
+}
+
+[class^="cell-"].offset-0 {
+  margin-left: calc(0% + 15px);
+}
+
+/* offset marg 10 */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"][class*="-margin-10"]:not([class*="-margin-10-"]).offset-#{$i} {
+    margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + 10px);
+  }
+}
+
+[class^="cell-"][class*="-margin-10"]:not([class*="-margin-10-"]).offset-0 {
+  margin-left: calc(0% + 10px);
+}
+
+/* offset marg 5 */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"][class*="-margin-5"]:not([class*="-margin-5-"]).offset-#{$i} {
+    margin-left: calc(#{nth($LST_CELLS_WIDTH, $i)} + 5px);
+  }
+}
+
+[class^="cell-"][class*="-margin-5"]:not([class*="-margin-5-"]).offset-0 {
+  margin-left: calc(0% + 5px);
+}
+
+/* offset marg 0 */
+
+@for $i from length($LST_CELLS_WIDTH) through 1 {
+  [class^="cell-"][class*="-margin-0"]:not([class*="-margin-0-"]).offset-#{$i} {
+    margin-left: nth($LST_CELLS_WIDTH, $i);
+  }
+}
+
+[class^="cell-"][class*="-margin-0"]:not([class*="-margin-0-"]).offset-0 {
+  margin-left: 0;
+}
+
+/* #########################  end : CELLS  ######################### */
+
+/* #########################  start : FLEX WRAP  ######################### */
+
+.flex-nowrap {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+/* #########################  end : FLEX WRAP  ######################### */
+
+/* #########################  start : FLEX HORIZONTAL  ######################### */
+
+.flex-x-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.flex-x-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.flex-x-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-x-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.flex-x-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex-x-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+/* #########################  end : FLEX HORIZONTAL  ######################### */
+
+/* #########################  start : FLEX VERTICAL  ######################### */
+
+.flex-y-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.flex-y-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.flex-y-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-y-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.flex-y-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+/* #########################  end : FLEX VERTICAL  ######################### */
+
+/* #########################  start : FLEX SELF ALIGN VERTICAL  ######################### */
+
+.flex-item-y-start {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.flex-item-y-end {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+.flex-item-y-center {
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.flex-item-y-baseline {
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+.flex-item-y-stretch {
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.flex-item-y-auto {
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+/* #########################  end : FLEX SELF ALIGN VERTICAL  ######################### */
+
+/* #########################  start : FLEX ORDER  ######################### */
+
+/* :::: order :::: */
+
+@for $i from 12 through 0 {
+  .flex-item-order-#{$i} {
+    order: $i - 1;
+    -webkit-box-ordinal-group: $i - 1;
+    -ms-flex-order: $i - 1;
+  }
+}
+
+/* #########################  end : FLEX ORDER  ######################### */

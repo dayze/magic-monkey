@@ -1,0 +1,13 @@
+/* #########################  end : BG-OPACITY  ######################### */
+
+/* yin */
+
+@each $color in $LST_COLORS {
+  @for $i from 1 through 9 {
+    .bg-#{nth($color, 1)}-opac-#{$i}, .hover-bg-#{nth($color, 1)}-opac-#{$i}:hover {
+      background-color: rgba(nth($color, 2), $i * 0.1);
+    }
+  }
+}
+
+/* #########################  end : BG-OPACITY  ######################### */

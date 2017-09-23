@@ -1,0 +1,20 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ bg color opac MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    @each $color in $LST_COLORS {
+      @for $i from 1 through 9 {
+        .bg-#{nth($color, 1)}-opac-#{$i}-#{nth($breakpoint, 1)},
+        .hover-bg-#{nth($color, 1)}-opac-#{$i}-#{nth($breakpoint, 1)}:hover {
+          background-color: rgba(nth($color, 2), $i * 0.1);
+        }
+      }
+    }
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

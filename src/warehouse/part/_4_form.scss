@@ -1,0 +1,55 @@
+/* #########################  start : FORM  ######################### */
+
+form.flex-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+form.flex-form input {
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+form.flex-form.standard input {
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+
+.align-field-box {
+  @include align-field-box;
+}
+
+.field-box {
+  @include field-box;
+}
+
+.actions-box {
+  @include action-box;
+}
+
+label.required::after, [class*="field-box"].required label::after {
+  content: "\002A";
+  margin-left: 5px;
+  color: #dc143c;
+}
+
+label.not-required::after {
+  content: '';
+}
+
+form.required::after {
+  content: '\002A Champ requis';
+  padding: 15px 15px 0 15px;
+  color: #dc143c;
+  display: block;
+}
+
+/* #########################  end : FORM  ######################### */

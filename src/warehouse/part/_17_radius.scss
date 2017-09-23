@@ -1,0 +1,21 @@
+/* #########################  start : RADIUS  ######################### */
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@each $val in $LST_VALUES {
+  .round-#{$val} {
+    -webkit-border-radius: #{$val}px;
+    -moz-border-radius: #{$val}px;
+    border-radius: #{$val}px;
+  }
+}
+
+.round {
+  @extend .round-5;
+}
+
+/* #########################  end : RADIUS  ######################### */

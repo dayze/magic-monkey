@@ -1,0 +1,173 @@
+/* #########################  start : BORDER  ######################### */
+
+/* all */
+
+.border-none, .hover-border-none:hover {
+  border: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}, .hover-border-#{$i}:hover {
+    border-width: #{$i}px;
+    border-style: solid;
+  }
+}
+
+.border, .border-1, .hover-border:hover, .hover-border-1:hover {
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* left */
+
+.border-none-left, .hover-border-none-left:hover {
+  border-left: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-left, .hover-border-#{$i}-left:hover {
+    border-left-width: #{$i}px;
+    border-left-style: solid;
+  }
+}
+
+.border-left, .border-1-left, .hover-border-left:hover, .hover-border-1-left:hover {
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+/* bottom */
+
+.border-none-bottom, .hover-border-none-bottom:hover {
+  border-bottom: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-bottom, .hover-border-#{$i}-bottom:hover {
+    border-bottom-width: #{$i}px;
+    border-bottom-style: solid;
+  }
+}
+
+.border-bottom, .border-1-bottom, .hover-border-bottom:hover, .hover-border-1-bottom:hover {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/* right */
+
+.border-none-right, .hover-border-none-right:hover {
+  border-right: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-right, .hover-border-#{$i}-right:hover {
+    border-right-width: #{$i}px;
+    border-right-style: solid;
+  }
+}
+
+.border-right, .border-1-right, .hover-border-right:hover, .hover-border-1-right:hover {
+  border-right-width: 1px;
+  border-right-style: solid;
+}
+
+/* top */
+
+.border-none-top, .hover-border-none-top:hover {
+  border-top: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-top, .hover-border-#{$i}-top:hover {
+    border-top-width: #{$i}px;
+    border-top-style: solid;
+  }
+}
+
+.border-top, .border-1-top, .hover-border-top:hover, .hover-border-1-top:hover {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+
+/* right/left */
+
+.border-none-right-left, .hover-border-none-right-left:hover {
+  border-right: none;
+  border-left: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-right-left, .hover-border-#{$i}-right-left:hover {
+    border-right-width: #{$i}px;
+    border-right-style: solid;
+    border-left-width: #{$i}px;
+    border-left-style: solid;
+  }
+}
+
+.border-right-left, .border-1-right-left, .hover-border-right-left:hover, .hover-border-1-right-left:hover {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+}
+
+/* top/bottom */
+
+.border-none-top-bottom, .hover-border-none-top-bottom:hover {
+  border-top: none;
+  border-bottom: none;
+}
+
+@for $i from 7 through 2 {
+  .border-#{$i}-top-bottom, .hover-border-#{$i}-top-bottom:hover {
+    border-top-width: #{$i}px;
+    border-top-style: solid;
+    border-bottom-width: #{$i}px;
+    border-bottom-style: solid;
+  }
+}
+
+.border-top-bottom, .border-1-top-bottom, .hover-border-top-bottom:hover, .hover-border-1-top-bottom:hover {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/* border style */
+
+@each $style in $LST_BORDER_STYLES {
+  .border-#{$style} {
+    border-style: #{$style};
+  }
+
+  .border-#{$style}-left {
+    border-left-style: #{$style};
+  }
+
+  .border-#{$style}-bottom {
+    border-bottom-style: #{$style};
+  }
+
+  .border-#{$style}-right {
+    border-right-style: #{$style};
+  }
+
+  .border-#{$style}-top {
+    border-top-style: #{$style};
+  }
+
+  .border-#{$style}-right-left {
+    border-right-style: #{$style};
+    border-left-style: #{$style};
+  }
+
+  .border-#{$style}-top-bottom {
+    border-top-style: #{$style};
+    border-bottom-style: #{$style};
+  }
+}
+
+/* #########################  end : BORDER  ######################### */

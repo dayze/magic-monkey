@@ -1,0 +1,87 @@
+/* #########################  start : QUOTE  ######################### */
+
+.quote-box {
+  padding: 15px;
+  border-left: 4px solid;
+}
+
+.quote-box > p.quote-text {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote-box > span.quote-legend::before {
+  content: '\007E\0020';
+}
+
+.quote-box > span.quote-legend::after {
+  content: '\0020\007E';
+}
+
+.quote-box > span.quote-legend {
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
+
+span.char-quote::before,
+.txt-quote::before,
+.txt-quote-reverse::before {
+  content: "\201C";
+}
+
+span.char-backquote::before,
+.txt-quote::after {
+  content: "\201D";
+}
+
+.txt-quote-reverse::after,
+span.char-backquote-reverse::before {
+  content: "\201E";
+}
+
+span.char-quote::before,
+.txt-quote::before,
+.txt-quote-reverse::before,
+span.char-backquote::before,
+.txt-quote::after,
+.txt-quote-reverse::after,
+span.char-backquote-reverse::before {
+  margin: 5px;
+}
+
+/* #########################  end : QUOTE  ######################### */
+
+/* #########################  start : SYMBOL  ######################### */
+
+/* :::: copyright :::: */
+span.char-copyright::before {
+  content: "\00a9";
+  @extend .margin-5-right;
+}
+
+/* :::: brand :::: */
+span.char-brand::before {
+  content: "\00ae";
+  @extend .margin-5-right;
+}
+
+/* registred */
+span.char-registred::before {
+  content: "\00ae";
+  @extend .margin-5-right;
+}
+
+/* paragraph */
+span.char-paragraph::before {
+  content: "\00b6";
+  @extend .margin-5-right;
+}
+
+/* trade mark */
+span.char-trade::before {
+  content: "\u2122";
+  @extend .margin-5-right;
+}
+
+/* #########################  end : SYMBOL  ######################### */

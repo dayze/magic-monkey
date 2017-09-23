@@ -1,0 +1,13 @@
+/* #########################  start : TRANSITION  ######################### */
+
+@for $i from 7 through 2 {
+  .transition-#{$i} {
+    -webkit-transition: all #{$i * 0.1}s ease;
+    -moz-transition: all #{$i * 0.1}s ease;
+    -ms-transition: all #{$i * 0.1}s ease;
+    -o-transition: all #{$i * 0.1}s ease;
+    transition: all #{$i * 0.1}s ease;
+  }
+}
+
+/* #########################  end : TRANSITION  ######################### */

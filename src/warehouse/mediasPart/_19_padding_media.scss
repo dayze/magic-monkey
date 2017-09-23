@@ -1,0 +1,97 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ Padding MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    /* ::::: padding ::::: */
+    /* @@@@@@@@@@ ALL  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-#{nth($breakpoint, 1)} {
+        padding: #{$val}px;
+      }
+    }
+
+    .padding-#{nth($breakpoint, 1)} {
+      @extend .padding-15-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ LEFT  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-left-#{nth($breakpoint, 1)} {
+        padding-left: #{$val}px;
+      }
+    }
+
+    .padding-left-#{nth($breakpoint, 1)} {
+      @extend .padding-15-left-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ BOTTOM  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-bottom-#{nth($breakpoint, 1)} {
+        padding-bottom: #{$val}px;
+      }
+    }
+
+    .padding-bottom-#{nth($breakpoint, 1)} {
+      @extend .padding-15-bottom-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ RIGHT  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-right-#{nth($breakpoint, 1)} {
+        padding-right: #{$val}px;
+      }
+    }
+
+    .padding-right-#{nth($breakpoint, 1)} {
+      @extend .padding-15-right-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ TOP  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-top-#{nth($breakpoint, 1)} {
+        padding-top: #{$val}px;
+      }
+    }
+
+    .padding-top-#{nth($breakpoint, 1)} {
+      @extend .padding-15-top-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ RIGHT/LEFT  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-right-left-#{nth($breakpoint, 1)} {
+        padding-right: #{$val}px;
+        padding-left: #{$val}px;
+      }
+    }
+
+    .padding-right-left-#{nth($breakpoint, 1)} {
+      @extend .padding-15-right-left-#{nth($breakpoint, 1)};
+    }
+
+    /* @@@@@@@@@@ TOP/BOTTOM  */
+
+    @each $val in $LST_VALUES {
+      .padding-#{$val}-top-bottom-#{nth($breakpoint, 1)} {
+        padding-top: #{$val}px;
+        padding-bottom: #{$val}px;
+      }
+    }
+
+    .padding-top-bottom-#{nth($breakpoint, 1)} {
+      @extend .padding-15-top-bottom-#{nth($breakpoint, 1)};
+    }
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

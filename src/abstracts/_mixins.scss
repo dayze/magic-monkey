@@ -1,0 +1,63 @@
+/// Responsive Breakpoint manager
+/// @access public
+/// @param {String} $breakpoint - Breakpoint
+/// @requires $BREAKPOINTS
+@mixin respond-to($breakpoint) {
+  $raw-query: map-get($BREAKPOINTS, $breakpoint);
+
+  @if $raw-query {
+    $query: if(
+                    type-of($raw-query) == 'string',
+                    unquote($raw-query),
+                    inspect($raw-query)
+    );
+
+    @media only screen and #{$query} {
+      @content;
+    }
+  } @else {
+    @error 'No value found for `#{$breakpoint}`. '
+         + 'Please make sure it is defined in `$breakpoints` map.';
+  }
+}
+
+/* ::::::::::::::::::::::::::::::: MIXINS FOR MEDIA QUERIES FORM */
+
+@mixin align-field-box {
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin-bottom: 20px;
+
+  label {
+    margin-right: 10px;
+  }
+}
+
+@mixin field-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 20px;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+
+  label {
+    margin-bottom: 10px;
+  }
+}
+
+@mixin action-box {
+  text-align: center;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}

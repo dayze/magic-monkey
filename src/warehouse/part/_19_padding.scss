@@ -1,0 +1,90 @@
+/* #########################  start : PADDING  ######################### */
+
+/* ::::: padding ::::: */
+/* @@@@@@@@@@ ALL  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val} {
+    padding: #{$val}px;
+  }
+}
+
+.padding {
+  @extend .padding-15;
+}
+
+/* @@@@@@@@@@ LEFT  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-left {
+    padding-left: #{$val}px;
+  }
+}
+
+.padding-left {
+  @extend .padding-15-left;
+}
+
+/* @@@@@@@@@@ BOTTOM  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-bottom {
+    padding-bottom: #{$val}px;
+  }
+}
+
+.padding-bottom {
+  @extend .padding-15-bottom;
+}
+
+/* @@@@@@@@@@ RIGHT  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-right {
+    padding-right: #{$val}px;
+  }
+}
+
+.padding-right {
+  @extend .padding-15-right;
+}
+
+/* @@@@@@@@@@ TOP  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-top {
+    padding-top: #{$val}px;
+  }
+}
+
+.padding-top {
+  @extend .padding-15-top;
+}
+
+/* @@@@@@@@@@ RIGHT/LEFT  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-right-left {
+    padding-right: #{$val}px;
+    padding-left: #{$val}px;
+  }
+}
+
+.padding-right-left {
+  @extend .padding-15-right-left;
+}
+
+/* @@@@@@@@@@ TOP/BOTTOM  */
+
+@each $val in $LST_VALUES {
+  .padding-#{$val}-top-bottom {
+    padding-top: #{$val}px;
+    padding-bottom: #{$val}px;
+  }
+}
+
+.padding-top-bottom {
+  @extend .padding-15-top-bottom;
+}
+
+/* #########################  end : PADDING  ######################### */

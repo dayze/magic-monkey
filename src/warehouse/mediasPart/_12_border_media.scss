@@ -1,0 +1,165 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ BORDER MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    /* all */
+
+    .border-none-#{nth($breakpoint, 1)}, .hover-border-none:hover-#{nth($breakpoint, 1)} {
+      border: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-#{nth($breakpoint, 1)}, .hover-border-#{$i}-#{nth($breakpoint, 1)}:hover {
+        border-width: #{$i}px;
+        border-style: solid;
+      }
+    }
+
+    .border-#{nth($breakpoint, 1)}, .border-1-#{nth($breakpoint, 1)}, .hover-border:hover-#{nth($breakpoint, 1)}, .hover-border-1-#{nth($breakpoint, 1)}:hover {
+      border-width: 1px;
+      border-style: solid;
+    }
+
+    /* left */
+
+    .border-none-left-#{nth($breakpoint, 1)}, .hover-border-none-left-#{nth($breakpoint, 1)}:hover {
+      border-left: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-left-#{nth($breakpoint, 1)}, .hover-border-#{$i}-left-#{nth($breakpoint, 1)}:hover {
+        border-left-width: #{$i}px;
+        border-left-style: solid;
+      }
+    }
+
+    .border-left-#{nth($breakpoint, 1)},
+    .border-1-left-#{nth($breakpoint, 1)},
+    .hover-border-left-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-left-#{nth($breakpoint, 1)}:hover {
+      border-left-width: 1px;
+      border-left-style: solid;
+    }
+
+    /* bottom */
+
+    .border-none-bottom-#{nth($breakpoint, 1)}, .hover-border-none-bottom-#{nth($breakpoint, 1)}:hover {
+      border-bottom: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-bottom-#{nth($breakpoint, 1)}, .hover-border-#{$i}-bottom-#{nth($breakpoint, 1)}:hover {
+        border-bottom-width: #{$i}px;
+        border-bottom-style: solid;
+      }
+    }
+
+    .border-bottom-#{nth($breakpoint, 1)},
+    .border-1-bottom-#{nth($breakpoint, 1)},
+    .hover-border-bottom-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-bottom-#{nth($breakpoint, 1)}:hover {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+    }
+
+    /* right */
+
+    .border-none-right-#{nth($breakpoint, 1)}, .hover-border-none-right-#{nth($breakpoint, 1)}:hover {
+      border-right: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-right-#{nth($breakpoint, 1)}, .hover-border-#{$i}-right-#{nth($breakpoint, 1)}:hover {
+        border-right-width: #{$i}px;
+        border-right-style: solid;
+      }
+    }
+
+    .border-right-#{nth($breakpoint, 1)},
+    .border-1-right-#{nth($breakpoint, 1)},
+    .hover-border-right-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-right-#{nth($breakpoint, 1)}:hover {
+      border-right-width: 1px;
+      border-right-style: solid;
+    }
+
+    /* top */
+
+    .border-none-top-#{nth($breakpoint, 1)}, .hover-border-none-top-#{nth($breakpoint, 1)}:hover {
+      border-top: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-top-#{nth($breakpoint, 1)}, .hover-border-#{$i}-top-#{nth($breakpoint, 1)}:hover {
+        border-top-width: #{$i}px;
+        border-top-style: solid;
+      }
+    }
+
+    .border-top-#{nth($breakpoint, 1)},
+    .border-1-top-#{nth($breakpoint, 1)},
+    .hover-border-top-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-top-#{nth($breakpoint, 1)}:hover {
+      border-top-width: 1px;
+      border-top-style: solid;
+    }
+
+    /* right/left */
+
+    .border-none-right-left-#{nth($breakpoint, 1)}, .hover-border-none-right-left-#{nth($breakpoint, 1)}:hover {
+      border-right: none;
+      border-left: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-right-left-#{nth($breakpoint, 1)}, .hover-border-#{$i}-right-left-#{nth($breakpoint, 1)}:hover {
+        border-right-width: #{$i}px;
+        border-right-style: solid;
+        border-left-width: #{$i}px;
+        border-left-style: solid;
+      }
+    }
+
+    .border-right-left-#{nth($breakpoint, 1)},
+    .border-1-right-left-#{nth($breakpoint, 1)},
+    .hover-border-right-left-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-right-left-#{nth($breakpoint, 1)}:hover {
+      border-right-width: 1px;
+      border-right-style: solid;
+      border-left-width: 1px;
+      border-left-style: solid;
+    }
+
+    /* top/bottom */
+
+    .border-none-top-bottom-#{nth($breakpoint, 1)}, .hover-border-none-top-bottom-#{nth($breakpoint, 1)}:hover {
+      border-top: none;
+      border-bottom: none;
+    }
+
+    @for $i from 7 through 2 {
+      .border-#{$i}-top-bottom-#{nth($breakpoint, 1)},
+      .hover-border-#{$i}-top-bottom-#{nth($breakpoint, 1)}:hover {
+        border-top-width: #{$i}px;
+        border-top-style: solid;
+        border-bottom-width: #{$i}px;
+        border-bottom-style: solid;
+      }
+    }
+
+    .border-top-bottom-#{nth($breakpoint, 1)},
+    .border-1-top-bottom-#{nth($breakpoint, 1)},
+    .hover-border-top-bottom-#{nth($breakpoint, 1)}:hover,
+    .hover-border-1-top-bottom-#{nth($breakpoint, 1)}:hover {
+      border-top-width: 1px;
+      border-top-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+    }
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */

@@ -1,0 +1,74 @@
+
+.border-transparent, .hover-border-transparent:hover {
+  border-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}, .hover-border-#{nth($color, 1)}:hover {
+    border-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-left, .hover-border-transparent-left:hover {
+  border-left-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}-left, .hover-border-#{nth($color, 1)}-left:hover {
+    border-left-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-bottom, .hover-border-transparent-bottom:hover {
+  border-bottom-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}-bottom, .hover-border-#{nth($color, 1)}-bottom:hover {
+    border-bottom-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-right, .hover-border-transparent-right:hover {
+  border-right-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}-right, .hover-border-#{nth($color, 1)}-right:hover {
+    border-right-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-top, .hover-border-transparent-top:hover {
+  border-top-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}-top, .hover-border-#{nth($color, 1)}-top:hover {
+    border-top-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-right-left, .hover-border-transparent-right-left:hover {
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-#{nth($color, 1)}-right-left, .hover-border-#{nth($color, 1)}-right-left:hover {
+    border-left-color: #{nth($color, 2)};
+    border-right-color: #{nth($color, 2)};
+  }
+}
+
+.border-transparent-top-bottom, .hover-border-transparent-top-bottom:hover {
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+}
+
+@each $color in $LST_COLORS {
+  .border-yin-top-bottom, .hover-border-#{nth($color, 1)}-top-bottom:hover {
+    border-bottom-color: #{nth($color, 2)};
+    border-top-color: #{nth($color, 2)};
+  }
+}

@@ -1,0 +1,126 @@
+/* #########################  start : TABLE  ######################### */
+
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table th {
+  text-align: inherit;
+}
+
+table td {
+  vertical-align: initial;
+}
+
+table.odd-rows tbody tr:nth-of-type(odd),
+table.even-rows tbody tr:nth-of-type(even) {
+  background: #f5f5f5;
+}
+
+table.hover-row tbody:hover tr:not(:hover) {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  background: #f5f5f5;
+}
+
+table.hover-row tbody:hover tr:hover {
+  background: #ffffff;
+}
+
+table.equal-layout {
+  table-layout: fixed;
+}
+
+table.equal-layout tr td, table.equal-layout tr th {
+  overflow-wrap: break-word;
+}
+
+table.border-rows tr td:first-of-type, table.border-rows tr th {
+  border-left: 1px solid;
+  border-left-color: #c0c0c0;
+}
+
+table.border-rows tr td:last-of-type, table.border-rows tr th:last-of-type {
+  border-right: 1px solid;
+  border-right-color: #c0c0c0;
+}
+
+table.border-rows tr {
+  border-top: 1px solid;
+  border-top-color: #c0c0c0;
+}
+
+table.border-rows tbody tr:last-of-type {
+  border-bottom: 1px solid;
+  border-bottom-color: #c0c0c0;
+}
+
+table.border-columns tr:first-of-type th,
+table.border-columns tr:first-of-type td {
+  border-top: 1px solid;
+  border-top-color: #c0c0c0;
+}
+
+table.border-columns td, table.border-columns th {
+  border-bottom: none;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-right-color: #c0c0c0;
+  border-left-color: #c0c0c0;
+}
+
+table.border-columns tr:last-of-type td {
+  border-bottom: 1px solid;
+  border-bottom-color: #c0c0c0;
+}
+
+table.border-rows-columns td, table.border-rows-columns th {
+  border: 1px solid;
+  border-right: none;
+  border-bottom: none;
+  border-left-color: #c0c0c0;
+  border-top-color: #c0c0c0;
+}
+
+table.border-rows-columns td:last-of-type, table.border-rows-columns th:last-of-type {
+  border-right: 1px solid;
+  border-right-color: #c0c0c0;
+}
+
+table.border-rows-columns tr:last-of-type td {
+  border-bottom: 1px solid;
+  border-bottom-color: #c0c0c0;
+}
+
+table.standard thead tr {
+  border-bottom: 2px solid;
+  border-bottom-color: #c0c0c0;
+}
+
+table.standard tbody tr:not(:first-of-type) {
+  border-top: 1px solid;
+  border-top-color: #c0c0c0;
+}
+
+table.airy-rows td, table.airy-rows th, table.standard td, table.standard th {
+  padding: 10px;
+}
+
+table.large-rows td, table.large-rows th {
+  padding: 20px
+}
+
+table.giant-rows td, table.giant-rows th {
+  padding: 30px
+}
+
+table.responsive-table {
+  display: block;
+  overflow-x: auto;
+}
+/* #########################  end : TABLE  ######################### */

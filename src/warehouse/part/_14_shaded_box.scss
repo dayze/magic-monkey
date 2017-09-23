@@ -1,0 +1,17 @@
+/* #########################  start : SHADED BOX  ######################### */
+
+.shaded-box, .hover-shaded-box {
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hover-shaded-box:hover {
+  -webkit-box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+/* #########################  end : SHADED BOX  ######################### */

@@ -1,0 +1,104 @@
+/* #########################  start : TEXT  ######################### */
+
+@each $txt-size in $TXT_SIZES {
+  .txt-size-#{nth($txt-size, 1)} {
+    font-size: #{nth($txt-size, 2)}rem;
+  }
+}
+
+.txt-wide {
+  letter-spacing: 4px;
+}
+
+.txt-over-breakline, .txt-over-breakline *, .editor-content > *:not(table):not([class*="txt-over"]) > *:not([class*="txt-over"]), .tooltip:not([class*="txt-over"]) * {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.txt-over-points, .txt-over-points * {
+  overflow-wrap: normal;
+  word-break: normal;
+  word-break: normal;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.txt-over-clip, .txt-over-clip * {
+  overflow-wrap: normal;
+  word-break: normal;
+  word-break: normal;
+  overflow: hidden;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.txt-no-line-feed {
+  white-space: nowrap;
+}
+
+.txt-upper {
+  text-transform: uppercase;
+}
+
+.txt-lower {
+  text-transform: lowercase;
+}
+
+.txt-capitalize {
+  text-transform: capitalize;
+}
+
+.txt-b {
+  font-weight: bold;
+}
+
+.txt-i {
+  font-style: italic;
+}
+
+.txt-line {
+  text-decoration: line-through;
+}
+
+.txt-overline {
+  text-decoration: overline;
+}
+
+.txt-underline {
+  text-decoration: underline;
+}
+
+.txt-unstyled {
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+}
+
+/* #########################  end : TEXT  ######################### */
+
+/* #########################  start : ALIGN  ######################### */
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+/* #########################  end : ALIGN  ######################### */
