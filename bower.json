@@ -17,6 +17,7 @@
     "README.md",
     "modele.css",
     "config.rb",
-    "src"
+    "src",
+    "dev"
   ]
 }
