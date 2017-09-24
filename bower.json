@@ -11,10 +11,9 @@
     "responsive",
     "rwd"
   ],
-  "license": "WTFPL",
+  "license": "MIT",
   "ignore": [
     "**/.*",
-    "README.md",
     "modele.css",
     "config.rb",
     "src",
