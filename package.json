@@ -1,6 +1,6 @@
 {
   "name": "magic-monkey",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Magic Monkey is a framework CSS offering practical classes and a grid based on Flexbox.",
   "main": "index.js",
   "scripts": {
