@@ -1,7 +1,5 @@
 # .npmignore
 **/.*
-index.js
-package.json
 bower.json
 modele.css
 config.rb
