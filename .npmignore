@@ -1,0 +1,6 @@
+# .npmignore
+**/.*
+modele.css
+config.rb
+src
+dev

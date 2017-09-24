@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87da3fbd-336d-493d-a710-ee001b0e7fd9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -280,12 +277,12 @@
       <workItem from="1506103207109" duration="10000" />
       <workItem from="1506180340165" duration="3035000" />
       <workItem from="1506201936352" duration="2016000" />
-      <workItem from="1506241869215" duration="843000" />
+      <workItem from="1506241869215" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107613000" />
+    <option name="totallyTimeSpent" value="108289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
