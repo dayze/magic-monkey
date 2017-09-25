@@ -247,14 +247,6 @@ img.responsive-img, video.responsive-video, .editor-content img {
   flex-direction: column-reverse;
 }
 
-.row-column > [class^="cell-"],
-.flex-column > [class^="cell-"],
-.row-column-reverse > [class^="cell-"],
-.flex-column-reverse > [class^="cell-"] {
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-}
-
 @each $val in $LST_VALUES {
   .row-cell-padding-#{$val} > [class^="cell-"]:not([class*="padding-"]) {
     padding: #{$val}px;
@@ -330,11 +322,19 @@ img.responsive-img, video.responsive-video, .editor-content img {
 @for $i from length($LST_CELLS_WIDTH) through 1 {
   [class*="row"].flex-x-around > [class*="cell-#{$i}"],
   [class*="row"].flex-x-between > [class*="cell-#{$i}"],
-  [class*="row"].flex-x-around > [class^="cell-"][class*="c#{$i}"],
-  [class*="row"].flex-x-between > [class^="cell-"][class*="c#{$i}"] {
+  [class*="row"].flex-x-around > [class^="cell-"][class*="c-#{$i}"],
+  [class*="row"].flex-x-between > [class^="cell-"][class*="c-#{$i}"] {
     flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
     -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
   }
+}
+
+.row-column > [class^="cell-"],
+.flex-column > [class^="cell-"],
+.row-column-reverse > [class^="cell-"],
+.flex-column-reverse > [class^="cell-"] {
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
 }
 
 /* :::: cells margins :::: */

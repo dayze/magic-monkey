@@ -31,14 +31,6 @@
       flex-direction: column-reverse;
     }
 
-    .row-column-#{nth($breakpoint, 1)} > [class^="cell-"],
-    .flex-column-#{nth($breakpoint, 1)} > [class^="cell-"],
-    .row-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"],
-    .flex-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"] {
-      -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-    }
-
     @each $val in $LST_VALUES {
       .row-cell-padding-#{$val}-#{nth($breakpoint, 1)} > [class^="cell-"]:not([class*="padding-"]) {
         padding: #{$val}px;
@@ -106,6 +98,7 @@
       }
     }
 
+
     /* :::: flex-content-around and flex-content-between margin for cells (not working with cell-rest !) :::: */
 
     @for $i from length($LST_CELLS_WIDTH) through 1 {
@@ -116,6 +109,14 @@
         flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
         -ms-flex-preferred-size: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
       }
+    }
+
+    .row-column-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .flex-column-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .row-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"],
+    .flex-column-reverse-#{nth($breakpoint, 1)} > [class^="cell-"] {
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
     }
 
     /* margins */
