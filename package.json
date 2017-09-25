@@ -1,6 +1,6 @@
 {
   "name": "magic-monkey",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Magic Monkey is a framework CSS offering practical classes and a grid based on Flexbox.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
