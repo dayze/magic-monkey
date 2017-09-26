@@ -320,8 +320,8 @@ img.responsive-img, video.responsive-video, .editor-content img {
 /* :::: flex-content-around and flex-content-between margin for cells (not working with cell-rest !) :::: */
 
 @for $i from length($LST_CELLS_WIDTH) through 1 {
-  .flex-x-around > [class*="cell-#{$i}"],
-  .flex-x-between > [class*="cell-#{$i}"],
+  .flex-x-around > [class^="cell-#{$i}"],
+  .flex-x-between > [class^="cell-#{$i}"],
   .flex-x-around > [class^="cell-"][class*="c-#{$i}"],
   .flex-x-between > [class^="cell-"][class*="c-#{$i}"] {
     flex-basis: calc(#{nth($LST_CELLS_WIDTH,  $i)} - 10px);
