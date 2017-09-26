@@ -7001,513 +7001,645 @@ table.responsive-table {
 /* text color  */
 /* #########################  start : COLOR  ######################### */
 .color-yang, .hover-color-yang:hover {
-  color: #ffffff; }
+  color: #ffffff;
+  fill: #ffffff; }
 
 .color-yin, .hover-color-yin:hover {
-  color: #333333; }
+  color: #333333;
+  fill: #333333; }
 
 .color-turquoise, .hover-color-turquoise:hover {
-  color: #1abc9c; }
+  color: #1abc9c;
+  fill: #1abc9c; }
 
 .color-emerald, .hover-color-emerald:hover {
-  color: #2ecc71; }
+  color: #2ecc71;
+  fill: #2ecc71; }
 
 .color-peter-river, .hover-color-peter-river:hover {
-  color: #3498db; }
+  color: #3498db;
+  fill: #3498db; }
 
 .color-amethyst, .hover-color-amethyst:hover {
-  color: #9b59b6; }
+  color: #9b59b6;
+  fill: #9b59b6; }
 
 .color-wet-asphalt, .hover-color-wet-asphalt:hover {
-  color: #34495e; }
+  color: #34495e;
+  fill: #34495e; }
 
 .color-green-sea, .hover-color-green-sea:hover {
-  color: #16a085; }
+  color: #16a085;
+  fill: #16a085; }
 
 .color-nephritis, .hover-color-nephritis:hover {
-  color: #27ae60; }
+  color: #27ae60;
+  fill: #27ae60; }
 
 .color-belize-hole, .hover-color-belize-hole:hover {
-  color: #2980b9; }
+  color: #2980b9;
+  fill: #2980b9; }
 
 .color-wisteria, .hover-color-wisteria:hover {
-  color: #8e44ad; }
+  color: #8e44ad;
+  fill: #8e44ad; }
 
 .color-midnight-blue, .hover-color-midnight-blue:hover {
-  color: #2c3e50; }
+  color: #2c3e50;
+  fill: #2c3e50; }
 
 .color-sun-flower, .hover-color-sun-flower:hover {
-  color: #f1c40f; }
+  color: #f1c40f;
+  fill: #f1c40f; }
 
 .color-carrot, .hover-color-carrot:hover {
-  color: #e67e22; }
+  color: #e67e22;
+  fill: #e67e22; }
 
 .color-alizarin, .hover-color-alizarin:hover {
-  color: #e74c3c; }
+  color: #e74c3c;
+  fill: #e74c3c; }
 
 .color-clouds, .hover-color-clouds:hover {
-  color: #ecf0f1; }
+  color: #ecf0f1;
+  fill: #ecf0f1; }
 
 .color-concrete, .hover-color-concrete:hover {
-  color: #95a5a6; }
+  color: #95a5a6;
+  fill: #95a5a6; }
 
 .color-orange, .hover-color-orange:hover {
-  color: #f39c12; }
+  color: #f39c12;
+  fill: #f39c12; }
 
 .color-pumpkin, .hover-color-pumpkin:hover {
-  color: #d35400; }
+  color: #d35400;
+  fill: #d35400; }
 
 .color-pomegranate, .hover-color-pomegranate:hover {
-  color: #c0392b; }
+  color: #c0392b;
+  fill: #c0392b; }
 
 .color-silver, .hover-color-silver:hover {
-  color: #bdc3c7; }
+  color: #bdc3c7;
+  fill: #bdc3c7; }
 
 .color-asbestos, .hover-color-asbestos:hover {
-  color: #7f8c8d; }
+  color: #7f8c8d;
+  fill: #7f8c8d; }
 
 /* #########################  end : COLOR  ######################### */
 /* @@@@@@@@@@@@@@@@@@@@@@ TEXT COLOR MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media only screen and (max-width: 1600px) {
   .color-yang-xl,
   .hover-color-yang-xl:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    fill: #ffffff; }
 
   .color-yin-xl,
   .hover-color-yin-xl:hover {
-    color: #333333; }
+    color: #333333;
+    fill: #333333; }
 
   .color-turquoise-xl,
   .hover-color-turquoise-xl:hover {
-    color: #1abc9c; }
+    color: #1abc9c;
+    fill: #1abc9c; }
 
   .color-emerald-xl,
   .hover-color-emerald-xl:hover {
-    color: #2ecc71; }
+    color: #2ecc71;
+    fill: #2ecc71; }
 
   .color-peter-river-xl,
   .hover-color-peter-river-xl:hover {
-    color: #3498db; }
+    color: #3498db;
+    fill: #3498db; }
 
   .color-amethyst-xl,
   .hover-color-amethyst-xl:hover {
-    color: #9b59b6; }
+    color: #9b59b6;
+    fill: #9b59b6; }
 
   .color-wet-asphalt-xl,
   .hover-color-wet-asphalt-xl:hover {
-    color: #34495e; }
+    color: #34495e;
+    fill: #34495e; }
 
   .color-green-sea-xl,
   .hover-color-green-sea-xl:hover {
-    color: #16a085; }
+    color: #16a085;
+    fill: #16a085; }
 
   .color-nephritis-xl,
   .hover-color-nephritis-xl:hover {
-    color: #27ae60; }
+    color: #27ae60;
+    fill: #27ae60; }
 
   .color-belize-hole-xl,
   .hover-color-belize-hole-xl:hover {
-    color: #2980b9; }
+    color: #2980b9;
+    fill: #2980b9; }
 
   .color-wisteria-xl,
   .hover-color-wisteria-xl:hover {
-    color: #8e44ad; }
+    color: #8e44ad;
+    fill: #8e44ad; }
 
   .color-midnight-blue-xl,
   .hover-color-midnight-blue-xl:hover {
-    color: #2c3e50; }
+    color: #2c3e50;
+    fill: #2c3e50; }
 
   .color-sun-flower-xl,
   .hover-color-sun-flower-xl:hover {
-    color: #f1c40f; }
+    color: #f1c40f;
+    fill: #f1c40f; }
 
   .color-carrot-xl,
   .hover-color-carrot-xl:hover {
-    color: #e67e22; }
+    color: #e67e22;
+    fill: #e67e22; }
 
   .color-alizarin-xl,
   .hover-color-alizarin-xl:hover {
-    color: #e74c3c; }
+    color: #e74c3c;
+    fill: #e74c3c; }
 
   .color-clouds-xl,
   .hover-color-clouds-xl:hover {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    fill: #ecf0f1; }
 
   .color-concrete-xl,
   .hover-color-concrete-xl:hover {
-    color: #95a5a6; }
+    color: #95a5a6;
+    fill: #95a5a6; }
 
   .color-orange-xl,
   .hover-color-orange-xl:hover {
-    color: #f39c12; }
+    color: #f39c12;
+    fill: #f39c12; }
 
   .color-pumpkin-xl,
   .hover-color-pumpkin-xl:hover {
-    color: #d35400; }
+    color: #d35400;
+    fill: #d35400; }
 
   .color-pomegranate-xl,
   .hover-color-pomegranate-xl:hover {
-    color: #c0392b; }
+    color: #c0392b;
+    fill: #c0392b; }
 
   .color-silver-xl,
   .hover-color-silver-xl:hover {
-    color: #bdc3c7; }
+    color: #bdc3c7;
+    fill: #bdc3c7; }
 
   .color-asbestos-xl,
   .hover-color-asbestos-xl:hover {
-    color: #7f8c8d; } }
+    color: #7f8c8d;
+    fill: #7f8c8d; } }
 @media only screen and (max-width: 1200px) {
   .color-yang-l,
   .hover-color-yang-l:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    fill: #ffffff; }
 
   .color-yin-l,
   .hover-color-yin-l:hover {
-    color: #333333; }
+    color: #333333;
+    fill: #333333; }
 
   .color-turquoise-l,
   .hover-color-turquoise-l:hover {
-    color: #1abc9c; }
+    color: #1abc9c;
+    fill: #1abc9c; }
 
   .color-emerald-l,
   .hover-color-emerald-l:hover {
-    color: #2ecc71; }
+    color: #2ecc71;
+    fill: #2ecc71; }
 
   .color-peter-river-l,
   .hover-color-peter-river-l:hover {
-    color: #3498db; }
+    color: #3498db;
+    fill: #3498db; }
 
   .color-amethyst-l,
   .hover-color-amethyst-l:hover {
-    color: #9b59b6; }
+    color: #9b59b6;
+    fill: #9b59b6; }
 
   .color-wet-asphalt-l,
   .hover-color-wet-asphalt-l:hover {
-    color: #34495e; }
+    color: #34495e;
+    fill: #34495e; }
 
   .color-green-sea-l,
   .hover-color-green-sea-l:hover {
-    color: #16a085; }
+    color: #16a085;
+    fill: #16a085; }
 
   .color-nephritis-l,
   .hover-color-nephritis-l:hover {
-    color: #27ae60; }
+    color: #27ae60;
+    fill: #27ae60; }
 
   .color-belize-hole-l,
   .hover-color-belize-hole-l:hover {
-    color: #2980b9; }
+    color: #2980b9;
+    fill: #2980b9; }
 
   .color-wisteria-l,
   .hover-color-wisteria-l:hover {
-    color: #8e44ad; }
+    color: #8e44ad;
+    fill: #8e44ad; }
 
   .color-midnight-blue-l,
   .hover-color-midnight-blue-l:hover {
-    color: #2c3e50; }
+    color: #2c3e50;
+    fill: #2c3e50; }
 
   .color-sun-flower-l,
   .hover-color-sun-flower-l:hover {
-    color: #f1c40f; }
+    color: #f1c40f;
+    fill: #f1c40f; }
 
   .color-carrot-l,
   .hover-color-carrot-l:hover {
-    color: #e67e22; }
+    color: #e67e22;
+    fill: #e67e22; }
 
   .color-alizarin-l,
   .hover-color-alizarin-l:hover {
-    color: #e74c3c; }
+    color: #e74c3c;
+    fill: #e74c3c; }
 
   .color-clouds-l,
   .hover-color-clouds-l:hover {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    fill: #ecf0f1; }
 
   .color-concrete-l,
   .hover-color-concrete-l:hover {
-    color: #95a5a6; }
+    color: #95a5a6;
+    fill: #95a5a6; }
 
   .color-orange-l,
   .hover-color-orange-l:hover {
-    color: #f39c12; }
+    color: #f39c12;
+    fill: #f39c12; }
 
   .color-pumpkin-l,
   .hover-color-pumpkin-l:hover {
-    color: #d35400; }
+    color: #d35400;
+    fill: #d35400; }
 
   .color-pomegranate-l,
   .hover-color-pomegranate-l:hover {
-    color: #c0392b; }
+    color: #c0392b;
+    fill: #c0392b; }
 
   .color-silver-l,
   .hover-color-silver-l:hover {
-    color: #bdc3c7; }
+    color: #bdc3c7;
+    fill: #bdc3c7; }
 
   .color-asbestos-l,
   .hover-color-asbestos-l:hover {
-    color: #7f8c8d; } }
+    color: #7f8c8d;
+    fill: #7f8c8d; } }
 @media only screen and (max-width: 992px) {
   .color-yang-m,
   .hover-color-yang-m:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    fill: #ffffff; }
 
   .color-yin-m,
   .hover-color-yin-m:hover {
-    color: #333333; }
+    color: #333333;
+    fill: #333333; }
 
   .color-turquoise-m,
   .hover-color-turquoise-m:hover {
-    color: #1abc9c; }
+    color: #1abc9c;
+    fill: #1abc9c; }
 
   .color-emerald-m,
   .hover-color-emerald-m:hover {
-    color: #2ecc71; }
+    color: #2ecc71;
+    fill: #2ecc71; }
 
   .color-peter-river-m,
   .hover-color-peter-river-m:hover {
-    color: #3498db; }
+    color: #3498db;
+    fill: #3498db; }
 
   .color-amethyst-m,
   .hover-color-amethyst-m:hover {
-    color: #9b59b6; }
+    color: #9b59b6;
+    fill: #9b59b6; }
 
   .color-wet-asphalt-m,
   .hover-color-wet-asphalt-m:hover {
-    color: #34495e; }
+    color: #34495e;
+    fill: #34495e; }
 
   .color-green-sea-m,
   .hover-color-green-sea-m:hover {
-    color: #16a085; }
+    color: #16a085;
+    fill: #16a085; }
 
   .color-nephritis-m,
   .hover-color-nephritis-m:hover {
-    color: #27ae60; }
+    color: #27ae60;
+    fill: #27ae60; }
 
   .color-belize-hole-m,
   .hover-color-belize-hole-m:hover {
-    color: #2980b9; }
+    color: #2980b9;
+    fill: #2980b9; }
 
   .color-wisteria-m,
   .hover-color-wisteria-m:hover {
-    color: #8e44ad; }
+    color: #8e44ad;
+    fill: #8e44ad; }
 
   .color-midnight-blue-m,
   .hover-color-midnight-blue-m:hover {
-    color: #2c3e50; }
+    color: #2c3e50;
+    fill: #2c3e50; }
 
   .color-sun-flower-m,
   .hover-color-sun-flower-m:hover {
-    color: #f1c40f; }
+    color: #f1c40f;
+    fill: #f1c40f; }
 
   .color-carrot-m,
   .hover-color-carrot-m:hover {
-    color: #e67e22; }
+    color: #e67e22;
+    fill: #e67e22; }
 
   .color-alizarin-m,
   .hover-color-alizarin-m:hover {
-    color: #e74c3c; }
+    color: #e74c3c;
+    fill: #e74c3c; }
 
   .color-clouds-m,
   .hover-color-clouds-m:hover {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    fill: #ecf0f1; }
 
   .color-concrete-m,
   .hover-color-concrete-m:hover {
-    color: #95a5a6; }
+    color: #95a5a6;
+    fill: #95a5a6; }
 
   .color-orange-m,
   .hover-color-orange-m:hover {
-    color: #f39c12; }
+    color: #f39c12;
+    fill: #f39c12; }
 
   .color-pumpkin-m,
   .hover-color-pumpkin-m:hover {
-    color: #d35400; }
+    color: #d35400;
+    fill: #d35400; }
 
   .color-pomegranate-m,
   .hover-color-pomegranate-m:hover {
-    color: #c0392b; }
+    color: #c0392b;
+    fill: #c0392b; }
 
   .color-silver-m,
   .hover-color-silver-m:hover {
-    color: #bdc3c7; }
+    color: #bdc3c7;
+    fill: #bdc3c7; }
 
   .color-asbestos-m,
   .hover-color-asbestos-m:hover {
-    color: #7f8c8d; } }
+    color: #7f8c8d;
+    fill: #7f8c8d; } }
 @media only screen and (max-width: 768px) {
   .color-yang-s,
   .hover-color-yang-s:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    fill: #ffffff; }
 
   .color-yin-s,
   .hover-color-yin-s:hover {
-    color: #333333; }
+    color: #333333;
+    fill: #333333; }
 
   .color-turquoise-s,
   .hover-color-turquoise-s:hover {
-    color: #1abc9c; }
+    color: #1abc9c;
+    fill: #1abc9c; }
 
   .color-emerald-s,
   .hover-color-emerald-s:hover {
-    color: #2ecc71; }
+    color: #2ecc71;
+    fill: #2ecc71; }
 
   .color-peter-river-s,
   .hover-color-peter-river-s:hover {
-    color: #3498db; }
+    color: #3498db;
+    fill: #3498db; }
 
   .color-amethyst-s,
   .hover-color-amethyst-s:hover {
-    color: #9b59b6; }
+    color: #9b59b6;
+    fill: #9b59b6; }
 
   .color-wet-asphalt-s,
   .hover-color-wet-asphalt-s:hover {
-    color: #34495e; }
+    color: #34495e;
+    fill: #34495e; }
 
   .color-green-sea-s,
   .hover-color-green-sea-s:hover {
-    color: #16a085; }
+    color: #16a085;
+    fill: #16a085; }
 
   .color-nephritis-s,
   .hover-color-nephritis-s:hover {
-    color: #27ae60; }
+    color: #27ae60;
+    fill: #27ae60; }
 
   .color-belize-hole-s,
   .hover-color-belize-hole-s:hover {
-    color: #2980b9; }
+    color: #2980b9;
+    fill: #2980b9; }
 
   .color-wisteria-s,
   .hover-color-wisteria-s:hover {
-    color: #8e44ad; }
+    color: #8e44ad;
+    fill: #8e44ad; }
 
   .color-midnight-blue-s,
   .hover-color-midnight-blue-s:hover {
-    color: #2c3e50; }
+    color: #2c3e50;
+    fill: #2c3e50; }
 
   .color-sun-flower-s,
   .hover-color-sun-flower-s:hover {
-    color: #f1c40f; }
+    color: #f1c40f;
+    fill: #f1c40f; }
 
   .color-carrot-s,
   .hover-color-carrot-s:hover {
-    color: #e67e22; }
+    color: #e67e22;
+    fill: #e67e22; }
 
   .color-alizarin-s,
   .hover-color-alizarin-s:hover {
-    color: #e74c3c; }
+    color: #e74c3c;
+    fill: #e74c3c; }
 
   .color-clouds-s,
   .hover-color-clouds-s:hover {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    fill: #ecf0f1; }
 
   .color-concrete-s,
   .hover-color-concrete-s:hover {
-    color: #95a5a6; }
+    color: #95a5a6;
+    fill: #95a5a6; }
 
   .color-orange-s,
   .hover-color-orange-s:hover {
-    color: #f39c12; }
+    color: #f39c12;
+    fill: #f39c12; }
 
   .color-pumpkin-s,
   .hover-color-pumpkin-s:hover {
-    color: #d35400; }
+    color: #d35400;
+    fill: #d35400; }
 
   .color-pomegranate-s,
   .hover-color-pomegranate-s:hover {
-    color: #c0392b; }
+    color: #c0392b;
+    fill: #c0392b; }
 
   .color-silver-s,
   .hover-color-silver-s:hover {
-    color: #bdc3c7; }
+    color: #bdc3c7;
+    fill: #bdc3c7; }
 
   .color-asbestos-s,
   .hover-color-asbestos-s:hover {
-    color: #7f8c8d; } }
+    color: #7f8c8d;
+    fill: #7f8c8d; } }
 @media only screen and (max-width: 480px) {
   .color-yang-xs,
   .hover-color-yang-xs:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    fill: #ffffff; }
 
   .color-yin-xs,
   .hover-color-yin-xs:hover {
-    color: #333333; }
+    color: #333333;
+    fill: #333333; }
 
   .color-turquoise-xs,
   .hover-color-turquoise-xs:hover {
-    color: #1abc9c; }
+    color: #1abc9c;
+    fill: #1abc9c; }
 
   .color-emerald-xs,
   .hover-color-emerald-xs:hover {
-    color: #2ecc71; }
+    color: #2ecc71;
+    fill: #2ecc71; }
 
   .color-peter-river-xs,
   .hover-color-peter-river-xs:hover {
-    color: #3498db; }
+    color: #3498db;
+    fill: #3498db; }
 
   .color-amethyst-xs,
   .hover-color-amethyst-xs:hover {
-    color: #9b59b6; }
+    color: #9b59b6;
+    fill: #9b59b6; }
 
   .color-wet-asphalt-xs,
   .hover-color-wet-asphalt-xs:hover {
-    color: #34495e; }
+    color: #34495e;
+    fill: #34495e; }
 
   .color-green-sea-xs,
   .hover-color-green-sea-xs:hover {
-    color: #16a085; }
+    color: #16a085;
+    fill: #16a085; }
 
   .color-nephritis-xs,
   .hover-color-nephritis-xs:hover {
-    color: #27ae60; }
+    color: #27ae60;
+    fill: #27ae60; }
 
   .color-belize-hole-xs,
   .hover-color-belize-hole-xs:hover {
-    color: #2980b9; }
+    color: #2980b9;
+    fill: #2980b9; }
 
   .color-wisteria-xs,
   .hover-color-wisteria-xs:hover {
-    color: #8e44ad; }
+    color: #8e44ad;
+    fill: #8e44ad; }
 
   .color-midnight-blue-xs,
   .hover-color-midnight-blue-xs:hover {
-    color: #2c3e50; }
+    color: #2c3e50;
+    fill: #2c3e50; }
 
   .color-sun-flower-xs,
   .hover-color-sun-flower-xs:hover {
-    color: #f1c40f; }
+    color: #f1c40f;
+    fill: #f1c40f; }
 
   .color-carrot-xs,
   .hover-color-carrot-xs:hover {
-    color: #e67e22; }
+    color: #e67e22;
+    fill: #e67e22; }
 
   .color-alizarin-xs,
   .hover-color-alizarin-xs:hover {
-    color: #e74c3c; }
+    color: #e74c3c;
+    fill: #e74c3c; }
 
   .color-clouds-xs,
   .hover-color-clouds-xs:hover {
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    fill: #ecf0f1; }
 
   .color-concrete-xs,
   .hover-color-concrete-xs:hover {
-    color: #95a5a6; }
+    color: #95a5a6;
+    fill: #95a5a6; }
 
   .color-orange-xs,
   .hover-color-orange-xs:hover {
-    color: #f39c12; }
+    color: #f39c12;
+    fill: #f39c12; }
 
   .color-pumpkin-xs,
   .hover-color-pumpkin-xs:hover {
-    color: #d35400; }
+    color: #d35400;
+    fill: #d35400; }
 
   .color-pomegranate-xs,
   .hover-color-pomegranate-xs:hover {
-    color: #c0392b; }
+    color: #c0392b;
+    fill: #c0392b; }
 
   .color-silver-xs,
   .hover-color-silver-xs:hover {
-    color: #bdc3c7; }
+    color: #bdc3c7;
+    fill: #bdc3c7; }
 
   .color-asbestos-xs,
   .hover-color-asbestos-xs:hover {
-    color: #7f8c8d; } }
+    color: #7f8c8d;
+    fill: #7f8c8d; } }
 /* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* bg color */
 /* #########################  start : BG-COLOR  ######################### */
@@ -21263,4 +21395,4 @@ span.char-trade::before {
 
 /* #########################  end : ANIMATION  ######################### */
 
-/*# sourceMappingURL=magic-monkey-1.0.5.min.css.map */
+/*# sourceMappingURL=magic-monkey-1.0.7.min.css.map */
