@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87da3fbd-336d-493d-a710-ee001b0e7fd9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css" afterPath="$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css" />
-    </list>
+    <list default="true" id="87da3fbd-336d-493d-a710-ee001b0e7fd9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,54 +10,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="magic-monkey-1.0.10.min.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/magic-monkey-1.0.10.min.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magic-monkey-1.0.10.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/abstracts/_mixins.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/abstracts/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lst_values</find>
-      <find>lst_po</find>
-      <find>row-ce</find>
       <find>breakpoint</find>
       <find>txt-si</find>
       <find>txt-size</find>
@@ -88,6 +41,9 @@
       <find>flex-basis: auto</find>
       <find>.flex-column-reverse &gt;</find>
       <find>.flex-column-reverse-s &gt;</find>
+      <find>turquoise</find>
+      <find>dashed</find>
+      <find>color-silver</find>
     </findStrings>
     <replaceStrings>
       <replace>margin-</replace>
@@ -115,7 +71,6 @@
         <option value="$PROJECT_DIR$/src/return/standardVersion.scss" />
         <option value="$PROJECT_DIR$/src/return/baseAndGridVersion.scss" />
         <option value="$PROJECT_DIR$/stylesheets/return/baseAndGridVersion.css" />
-        <option value="$PROJECT_DIR$/src/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/src/part/_8_text.scss" />
         <option value="$PROJECT_DIR$/src/part/_1_base_grid.scss" />
         <option value="$PROJECT_DIR$/src/part/_9_text_color.scss" />
@@ -152,10 +107,11 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/warehouse/mediasPart/_9_text__color_media.scss" />
         <option value="$PROJECT_DIR$/src/warehouse/part/_9_text_color.scss" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/warehouse/mediasPart/_1_base_grid_media.scss" />
         <option value="$PROJECT_DIR$/src/warehouse/part/_1_base_grid.scss" />
+        <option value="$PROJECT_DIR$/src/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -210,12 +166,6 @@
               <item name="magicmonkeyscss_lib" type="b2602c69:ProjectViewProjectNode" />
               <item name="magicmonkeyscss_lib" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="magicmonkeyscss_lib" type="b2602c69:ProjectViewProjectNode" />
-              <item name="magicmonkeyscss_lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="abstracts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="magicmonkeyscss_lib" type="b2602c69:ProjectViewProjectNode" />
@@ -290,12 +240,12 @@
       <workItem from="1506368920977" duration="1044000" />
       <workItem from="1506411585094" duration="742000" />
       <workItem from="1506437194054" duration="1365000" />
-      <workItem from="1506454764763" duration="146000" />
+      <workItem from="1506454764763" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119197000" />
+    <option name="totallyTimeSpent" value="119564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,7 +258,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20396914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49779493" order="6" side_tool="false" content_ui="tabs" />
@@ -652,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/warehouse/part/_1_base_grid.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -674,22 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/magic-monkey-1.0.10.min.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/abstracts/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -700,8 +625,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/abstracts/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/magic-monkey-1.0.10.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="1849" column="1" lean-forward="true" selection-start-line="1849" selection-start-column="1" selection-end-line="1849" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/magic-monkey-1.0.11.min.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
