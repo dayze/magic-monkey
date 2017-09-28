@@ -46,7 +46,7 @@ label.not-required::after {
 }
 
 form.required::after {
-  content: '\002A Champ requis';
+  content: '\002A\0020 Champ requis / Required field';
   padding: 15px 15px 0 15px;
   color: #dc143c;
   display: block;
