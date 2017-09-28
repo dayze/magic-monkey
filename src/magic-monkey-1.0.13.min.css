@@ -5868,7 +5868,7 @@ form.flex-form input {
   font-size: inherit;
   font-family: inherit; }
 
-form.flex-form.standard input {
+form.flex-form.standard :not(.actions-box) input {
   border: none;
   border-bottom: 1px solid silver;
   outline: none; }
@@ -21395,4 +21395,4 @@ span.char-trade::before {
 
 /* #########################  end : ANIMATION  ######################### */
 
-/*# sourceMappingURL=magic-monkey-1.0.12.min.css.map */
+/*# sourceMappingURL=magic-monkey-1.0.13.min.css.map */
