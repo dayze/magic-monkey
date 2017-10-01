@@ -5863,12 +5863,12 @@ form.flex-form {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-form.flex-form input {
+form.flex-form input, form.flex-form button {
   padding: 10px;
   font-size: inherit;
   font-family: inherit; }
 
-form.flex-form.standard :not(.actions-box) input {
+form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.actions-box) input {
   border: none;
   border-bottom: 1px solid silver;
   outline: none; }
@@ -5914,7 +5914,7 @@ label.not-required::after {
   content: ''; }
 
 form.required::after {
-  content: '\002A\0020 Champ requis / Requir';
+  content: '\002A\0020 Champ requis / Required field';
   padding: 15px 15px 0 15px;
   color: #dc143c;
   display: block; }
@@ -21395,4 +21395,4 @@ span.char-trade::before {
 
 /* #########################  end : ANIMATION  ######################### */
 
-/*# sourceMappingURL=magic-monkey-1.0.14.min.css.map */
+/*# sourceMappingURL=magic-monkey.min.css.map */

@@ -11,13 +11,13 @@ form.flex-form {
   justify-content: space-between;
 }
 
-form.flex-form input {
+form.flex-form input, form.flex-form button {
   padding: 10px;
   font-size: inherit;
   font-family: inherit;
 }
 
-form.flex-form.standard :not(.actions-box) input {
+form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.actions-box) button {
   border: none;
   border-bottom: 1px solid silver;
   outline: none;
