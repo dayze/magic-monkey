@@ -46,7 +46,7 @@
 
     .show-#{nth($breakpoint, 1)},
     .block-box-#{nth($breakpoint, 1)},
-    .block {
+    .block-#{nth($breakpoint, 1)} {
       display: block;
     }
 
