@@ -21,7 +21,7 @@
 
 body {
   /*font-family: Tahoma, Geneva, sans-serif;*/
-  font-family: Segoe Ui;
+  font-family: Segoe Ui, sans-serif;
   font-size: 15px;
   color: #404852;
   margin: 0; }
@@ -19033,6 +19033,12 @@ table.responsive-table {
   left: initial;
   bottom: 0;
   top: initial; }
+
+.foreground {
+  z-index: 1001; }
+
+.background {
+  z-index: 999; }
 
 /* #########################  end : POSTION  ######################### */
 /* @@@@@@@@@@@@@@@@@@@@@@ POSITION MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
