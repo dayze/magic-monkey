@@ -20,7 +20,9 @@
   z-index: 1; }
 
 body {
-  font-family: Tahoma, Geneva, sans-serif;
+  /*font-family: Tahoma, Geneva, sans-serif;*/
+  font-family: Segoe Ui;
+  font-size: 15px;
   color: #404852;
   margin: 0; }
 
@@ -19170,6 +19172,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .fixed-bottom-right-xl {
+    position: fixed;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19303,6 +19306,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .absolute-bottom-right-xl {
+    position: absolute;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19443,6 +19447,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .fixed-bottom-right-l {
+    position: fixed;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19576,6 +19581,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .absolute-bottom-right-l {
+    position: absolute;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19716,6 +19722,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .fixed-bottom-right-m {
+    position: fixed;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19849,6 +19856,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .absolute-bottom-right-m {
+    position: absolute;
     right: 0;
     left: initial;
     bottom: 0;
@@ -19989,6 +19997,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .fixed-bottom-right-s {
+    position: fixed;
     right: 0;
     left: initial;
     bottom: 0;
@@ -20122,6 +20131,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .absolute-bottom-right-s {
+    position: absolute;
     right: 0;
     left: initial;
     bottom: 0;
@@ -20262,6 +20272,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .fixed-bottom-right-xs {
+    position: fixed;
     right: 0;
     left: initial;
     bottom: 0;
@@ -20395,6 +20406,7 @@ table.responsive-table {
     transform: translate(0, -50%); }
 
   .absolute-bottom-right-xs {
+    position: absolute;
     right: 0;
     left: initial;
     bottom: 0;
