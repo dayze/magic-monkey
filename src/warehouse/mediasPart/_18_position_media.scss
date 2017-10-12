@@ -10,6 +10,18 @@
       top: 0;
     }
 
+    .fixed-#{nth($breakpoint, 1)} {
+      position: fixed;
+    }
+
+    .absolute-#{nth($breakpoint, 1)} {
+      position: absolute;
+    }
+
+    .overlay-#{nth($breakpoint, 1)} {
+      position: relative;
+    }
+
     /* :::: FIXED :::: */
 
     /* :::: row column spread :::: */
@@ -48,7 +60,7 @@
         bottom: 0;
       }
 
-      .#{$position}-row-center-#{nth($breakpoint, 1)} {
+      .#{$position}-row-middle-#{nth($breakpoint, 1)} {
         position: #{$position};
         left: 0;
         right: 0;
@@ -169,6 +181,14 @@
         bottom: 0;
         top: initial;
       }
+    }
+
+    .foreground-#{nth($breakpoint, 1)} {
+      z-index: 1001;
+    }
+
+    .background-#{nth($breakpoint, 1)} {
+      z-index: 999;
     }
 
   }
