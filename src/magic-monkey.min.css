@@ -6419,14 +6419,14 @@ table.odd-rows tbody tr:nth-of-type(odd),
 table.even-rows tbody tr:nth-of-type(even) {
   background: #f5f5f5; }
 
-table.hover-row tbody:hover tr:not(:hover) {
+table.hover-rows tbody:hover tr:not(:hover) {
   opacity: 0.5;
   filter: alpha(opacity=50);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   background: #f5f5f5; }
 
-table.hover-row tbody:hover tr:hover {
+table.hover-rows tbody:hover tr:hover {
   background: #ffffff; }
 
 table.equal-layout {
@@ -6435,7 +6435,7 @@ table.equal-layout {
 table.equal-layout tr td, table.equal-layout tr th {
   overflow-wrap: break-word; }
 
-table.border-rows tr td:first-of-type, table.border-rows tr th {
+table.border-rows tr td:first-of-type, table.border-rows tr th:first-of-type {
   border-left: 1px solid;
   border-left-color: #c0c0c0; }
 
