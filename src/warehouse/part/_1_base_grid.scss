@@ -275,7 +275,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   display: inline;
 }
 
-.inline-block, .inline-block-box, .inline.block {
+.inline-block,
+.inline-block-box,
+.inline.block,
+.inline-box.block,
+.inline.block-box,
+.inline-box.block-box,
+.inline.show,
+.inline-box.show {
   display: inline-block;
 }
 
@@ -285,7 +292,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
   display: flex;
 }
 
-.inline-flex, .inline-flex-box, .inline.flex {
+.inline-flex,
+.inline-flex-box,
+.inline.flex,
+.inline-box.flex,
+.inline.flex-box,
+.inline-box.flex-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

@@ -265,7 +265,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
 .inline-box, .inline {
   display: inline; }
 
-.inline-block, .inline-block-box, .inline.block {
+.inline-block,
+.inline-block-box,
+.inline.block,
+.inline-box.block,
+.inline.block-box,
+.inline-box.block-box,
+.inline.show,
+.inline-box.show {
   display: inline-block; }
 
 .flex, .flex-box {
@@ -273,7 +280,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
   display: -ms-flexbox;
   display: flex; }
 
-.inline-flex, .inline-flex-box, .inline.flex {
+.inline-flex,
+.inline-flex-box,
+.inline.flex,
+.inline-box.flex,
+.inline.flex-box,
+.inline-box.flex-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex; }
@@ -1113,9 +1125,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   .inline-xl {
     display: inline; }
 
-  .inline-block-xl,
-  .inline-block-box-xl,
-  .inline.block-xl {
+  .inline-block,
+  .inline-block-box,
+  .inline-xl.block-xl,
+  .inline-box-xl.block-xl,
+  .inline-xl.block-box-xl,
+  .inline-box-xl.block-box-xl,
+  .inline-xl.show-xl,
+  .inline-box-xl.show-xl {
     display: inline-block; }
 
   .flex-xl,
@@ -1124,9 +1141,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
     display: -ms-flexbox;
     display: flex; }
 
-  .inline-flex-xl,
-  .inline-flex-box-xl,
-  .inline-xl.flex-xl {
+  .inline-flex,
+  .inline-flex-box,
+  .inline-xl.flex-xl,
+  .inline-box-xl.flex-xl,
+  .inline-xl.flex-box-xl,
+  .inline-box-xl.flex-box-xl {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -2046,9 +2066,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   .inline-l {
     display: inline; }
 
-  .inline-block-l,
-  .inline-block-box-l,
-  .inline.block-l {
+  .inline-block,
+  .inline-block-box,
+  .inline-l.block-l,
+  .inline-box-l.block-l,
+  .inline-l.block-box-l,
+  .inline-box-l.block-box-l,
+  .inline-l.show-l,
+  .inline-box-l.show-l {
     display: inline-block; }
 
   .flex-l,
@@ -2057,9 +2082,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
     display: -ms-flexbox;
     display: flex; }
 
-  .inline-flex-l,
-  .inline-flex-box-l,
-  .inline-l.flex-l {
+  .inline-flex,
+  .inline-flex-box,
+  .inline-l.flex-l,
+  .inline-box-l.flex-l,
+  .inline-l.flex-box-l,
+  .inline-box-l.flex-box-l {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -2979,9 +3007,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   .inline-m {
     display: inline; }
 
-  .inline-block-m,
-  .inline-block-box-m,
-  .inline.block-m {
+  .inline-block,
+  .inline-block-box,
+  .inline-m.block-m,
+  .inline-box-m.block-m,
+  .inline-m.block-box-m,
+  .inline-box-m.block-box-m,
+  .inline-m.show-m,
+  .inline-box-m.show-m {
     display: inline-block; }
 
   .flex-m,
@@ -2990,9 +3023,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
     display: -ms-flexbox;
     display: flex; }
 
-  .inline-flex-m,
-  .inline-flex-box-m,
-  .inline-m.flex-m {
+  .inline-flex,
+  .inline-flex-box,
+  .inline-m.flex-m,
+  .inline-box-m.flex-m,
+  .inline-m.flex-box-m,
+  .inline-box-m.flex-box-m {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -3912,9 +3948,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   .inline-s {
     display: inline; }
 
-  .inline-block-s,
-  .inline-block-box-s,
-  .inline.block-s {
+  .inline-block,
+  .inline-block-box,
+  .inline-s.block-s,
+  .inline-box-s.block-s,
+  .inline-s.block-box-s,
+  .inline-box-s.block-box-s,
+  .inline-s.show-s,
+  .inline-box-s.show-s {
     display: inline-block; }
 
   .flex-s,
@@ -3923,9 +3964,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
     display: -ms-flexbox;
     display: flex; }
 
-  .inline-flex-s,
-  .inline-flex-box-s,
-  .inline-s.flex-s {
+  .inline-flex,
+  .inline-flex-box,
+  .inline-s.flex-s,
+  .inline-box-s.flex-s,
+  .inline-s.flex-box-s,
+  .inline-box-s.flex-box-s {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -4845,9 +4889,14 @@ img.responsive-img, video.responsive-video, .editor-content img {
   .inline-xs {
     display: inline; }
 
-  .inline-block-xs,
-  .inline-block-box-xs,
-  .inline.block-xs {
+  .inline-block,
+  .inline-block-box,
+  .inline-xs.block-xs,
+  .inline-box-xs.block-xs,
+  .inline-xs.block-box-xs,
+  .inline-box-xs.block-box-xs,
+  .inline-xs.show-xs,
+  .inline-box-xs.show-xs {
     display: inline-block; }
 
   .flex-xs,
@@ -4856,9 +4905,12 @@ img.responsive-img, video.responsive-video, .editor-content img {
     display: -ms-flexbox;
     display: flex; }
 
-  .inline-flex-xs,
-  .inline-flex-box-xs,
-  .inline-xs.flex-xs {
+  .inline-flex,
+  .inline-flex-box,
+  .inline-xs.flex-xs,
+  .inline-box-xs.flex-xs,
+  .inline-xs.flex-box-xs,
+  .inline-box-xs.flex-box-xs {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex; }
@@ -5870,7 +5922,7 @@ form.flex-form input, form.flex-form button {
   font-size: inherit;
   font-family: inherit; }
 
-form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.actions-box) button {
+form.flex-form.styled-form :not(.actions-box) input, form.flex-form.styled-form :not(.actions-box) button {
   border: none;
   border-bottom: 1px solid silver;
   outline: none; }
@@ -5907,13 +5959,10 @@ form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%; }
 
-label.required::after, [class*="field-box"].required label::after {
+label.required::after {
   content: "\002A";
   margin-left: 5px;
   color: #dc143c; }
-
-label.not-required::after {
-  content: ''; }
 
 form.required::after {
   content: '\002A\0020 Champ requis / Required field';
@@ -6187,41 +6236,6 @@ form.required::after {
     display: block;
     margin-right: 0; }
 
-  .list-style-circle-xl,
-  .list-style-circle-xl > ul,
-  .list-style-circle-xl > ol {
-    list-style-type: circle; }
-
-  .list-style-decimal-xl,
-  .list-style-decimal-xl > ul,
-  .list-style-decimal-xl > ol {
-    list-style-type: decimal; }
-
-  .list-style-square-xl,
-  .list-style-square-xl > ul,
-  .list-style-square-xl > ol {
-    list-style-type: square; }
-
-  .list-style-lower-alpha-xl,
-  .list-style-lower-alpha-xl > ul,
-  .list-style-lower-alpha-xl > ol {
-    list-style-type: lower-alpha; }
-
-  .list-style-upper-alpha-xl,
-  .list-style-upper-alpha-xl > ul,
-  .list-style-upper-alpha-xl > ol {
-    list-style-type: upper-alpha; }
-
-  .list-style-lower-roman-xl,
-  .list-style-lower-roman-xl > ul,
-  .list-style-lower-roman-xl > ol {
-    list-style-type: lower-roman; }
-
-  .list-style-upper-roman-xl,
-  .list-style-upper-roman-xl > ul,
-  .list-style-upper-roman-xl > ol {
-    list-style-type: upper-roman; }
-
   /* #########################  end : LISTE  ######################### */ }
 @media only screen and (max-width: 1200px) {
   /* #########################  start : LISTE  ######################### */
@@ -6262,41 +6276,6 @@ form.required::after {
   .list-block-l > ol > li {
     display: block;
     margin-right: 0; }
-
-  .list-style-circle-l,
-  .list-style-circle-l > ul,
-  .list-style-circle-l > ol {
-    list-style-type: circle; }
-
-  .list-style-decimal-l,
-  .list-style-decimal-l > ul,
-  .list-style-decimal-l > ol {
-    list-style-type: decimal; }
-
-  .list-style-square-l,
-  .list-style-square-l > ul,
-  .list-style-square-l > ol {
-    list-style-type: square; }
-
-  .list-style-lower-alpha-l,
-  .list-style-lower-alpha-l > ul,
-  .list-style-lower-alpha-l > ol {
-    list-style-type: lower-alpha; }
-
-  .list-style-upper-alpha-l,
-  .list-style-upper-alpha-l > ul,
-  .list-style-upper-alpha-l > ol {
-    list-style-type: upper-alpha; }
-
-  .list-style-lower-roman-l,
-  .list-style-lower-roman-l > ul,
-  .list-style-lower-roman-l > ol {
-    list-style-type: lower-roman; }
-
-  .list-style-upper-roman-l,
-  .list-style-upper-roman-l > ul,
-  .list-style-upper-roman-l > ol {
-    list-style-type: upper-roman; }
 
   /* #########################  end : LISTE  ######################### */ }
 @media only screen and (max-width: 992px) {
@@ -6339,41 +6318,6 @@ form.required::after {
     display: block;
     margin-right: 0; }
 
-  .list-style-circle-m,
-  .list-style-circle-m > ul,
-  .list-style-circle-m > ol {
-    list-style-type: circle; }
-
-  .list-style-decimal-m,
-  .list-style-decimal-m > ul,
-  .list-style-decimal-m > ol {
-    list-style-type: decimal; }
-
-  .list-style-square-m,
-  .list-style-square-m > ul,
-  .list-style-square-m > ol {
-    list-style-type: square; }
-
-  .list-style-lower-alpha-m,
-  .list-style-lower-alpha-m > ul,
-  .list-style-lower-alpha-m > ol {
-    list-style-type: lower-alpha; }
-
-  .list-style-upper-alpha-m,
-  .list-style-upper-alpha-m > ul,
-  .list-style-upper-alpha-m > ol {
-    list-style-type: upper-alpha; }
-
-  .list-style-lower-roman-m,
-  .list-style-lower-roman-m > ul,
-  .list-style-lower-roman-m > ol {
-    list-style-type: lower-roman; }
-
-  .list-style-upper-roman-m,
-  .list-style-upper-roman-m > ul,
-  .list-style-upper-roman-m > ol {
-    list-style-type: upper-roman; }
-
   /* #########################  end : LISTE  ######################### */ }
 @media only screen and (max-width: 768px) {
   /* #########################  start : LISTE  ######################### */
@@ -6415,41 +6359,6 @@ form.required::after {
     display: block;
     margin-right: 0; }
 
-  .list-style-circle-s,
-  .list-style-circle-s > ul,
-  .list-style-circle-s > ol {
-    list-style-type: circle; }
-
-  .list-style-decimal-s,
-  .list-style-decimal-s > ul,
-  .list-style-decimal-s > ol {
-    list-style-type: decimal; }
-
-  .list-style-square-s,
-  .list-style-square-s > ul,
-  .list-style-square-s > ol {
-    list-style-type: square; }
-
-  .list-style-lower-alpha-s,
-  .list-style-lower-alpha-s > ul,
-  .list-style-lower-alpha-s > ol {
-    list-style-type: lower-alpha; }
-
-  .list-style-upper-alpha-s,
-  .list-style-upper-alpha-s > ul,
-  .list-style-upper-alpha-s > ol {
-    list-style-type: upper-alpha; }
-
-  .list-style-lower-roman-s,
-  .list-style-lower-roman-s > ul,
-  .list-style-lower-roman-s > ol {
-    list-style-type: lower-roman; }
-
-  .list-style-upper-roman-s,
-  .list-style-upper-roman-s > ul,
-  .list-style-upper-roman-s > ol {
-    list-style-type: upper-roman; }
-
   /* #########################  end : LISTE  ######################### */ }
 @media only screen and (max-width: 480px) {
   /* #########################  start : LISTE  ######################### */
@@ -6490,41 +6399,6 @@ form.required::after {
   .list-block-xs > ol > li {
     display: block;
     margin-right: 0; }
-
-  .list-style-circle-xs,
-  .list-style-circle-xs > ul,
-  .list-style-circle-xs > ol {
-    list-style-type: circle; }
-
-  .list-style-decimal-xs,
-  .list-style-decimal-xs > ul,
-  .list-style-decimal-xs > ol {
-    list-style-type: decimal; }
-
-  .list-style-square-xs,
-  .list-style-square-xs > ul,
-  .list-style-square-xs > ol {
-    list-style-type: square; }
-
-  .list-style-lower-alpha-xs,
-  .list-style-lower-alpha-xs > ul,
-  .list-style-lower-alpha-xs > ol {
-    list-style-type: lower-alpha; }
-
-  .list-style-upper-alpha-xs,
-  .list-style-upper-alpha-xs > ul,
-  .list-style-upper-alpha-xs > ol {
-    list-style-type: upper-alpha; }
-
-  .list-style-lower-roman-xs,
-  .list-style-lower-roman-xs > ul,
-  .list-style-lower-roman-xs > ol {
-    list-style-type: lower-roman; }
-
-  .list-style-upper-roman-xs,
-  .list-style-upper-roman-xs > ul,
-  .list-style-upper-roman-xs > ol {
-    list-style-type: upper-roman; }
 
   /* #########################  end : LISTE  ######################### */ }
 /* @@@@@@@@@@@@@@@@@@@@@@ END MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -6608,15 +6482,15 @@ table.border-rows-columns tr:last-of-type td {
   border-bottom: 1px solid;
   border-bottom-color: #c0c0c0; }
 
-table.standard thead tr {
+table.styled-table thead tr {
   border-bottom: 2px solid;
   border-bottom-color: #c0c0c0; }
 
-table.standard tbody tr:not(:first-of-type) {
+table.styled-table tbody tr:not(:first-of-type) {
   border-top: 1px solid;
   border-top-color: #c0c0c0; }
 
-table.airy-rows td, table.airy-rows th, table.standard td, table.standard th {
+table.airy-rows td, table.airy-rows th, table.styled-table td, table.styled-table th {
   padding: 10px; }
 
 table.large-rows td, table.large-rows th {
@@ -6634,8 +6508,8 @@ table.responsive-table {
 @media only screen and (max-width: 1600px) {
   table.airy-rows-xl td,
   table.airy-rows-xl th,
-  table.standard-xl td,
-  table.standard-xl th {
+  table.styled-table-xl td,
+  table.styled-table-xl th {
     padding: 10px; }
 
   table.large-rows-xl td,
@@ -6648,8 +6522,8 @@ table.responsive-table {
 @media only screen and (max-width: 1200px) {
   table.airy-rows-l td,
   table.airy-rows-l th,
-  table.standard-l td,
-  table.standard-l th {
+  table.styled-table-l td,
+  table.styled-table-l th {
     padding: 10px; }
 
   table.large-rows-l td,
@@ -6662,8 +6536,8 @@ table.responsive-table {
 @media only screen and (max-width: 992px) {
   table.airy-rows-m td,
   table.airy-rows-m th,
-  table.standard-m td,
-  table.standard-m th {
+  table.styled-table-m td,
+  table.styled-table-m th {
     padding: 10px; }
 
   table.large-rows-m td,
@@ -6676,8 +6550,8 @@ table.responsive-table {
 @media only screen and (max-width: 768px) {
   table.airy-rows-s td,
   table.airy-rows-s th,
-  table.standard-s td,
-  table.standard-s th {
+  table.styled-table-s td,
+  table.styled-table-s th {
     padding: 10px; }
 
   table.large-rows-s td,
@@ -6690,8 +6564,8 @@ table.responsive-table {
 @media only screen and (max-width: 480px) {
   table.airy-rows-xs td,
   table.airy-rows-xs th,
-  table.standard-xs td,
-  table.standard-xs th {
+  table.styled-table-xs td,
+  table.styled-table-xs th {
     padding: 10px; }
 
   table.large-rows-xs td,
@@ -19093,7 +18967,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .fixed-row--xl {
+  .fixed-row-middle-xl {
     position: fixed;
     left: 0;
     right: 0;
@@ -19230,7 +19104,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .absolute-row--xl {
+  .absolute-row-middle-xl {
     position: absolute;
     left: 0;
     right: 0;
@@ -19389,7 +19263,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .fixed-row--l {
+  .fixed-row-middle-l {
     position: fixed;
     left: 0;
     right: 0;
@@ -19526,7 +19400,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .absolute-row--l {
+  .absolute-row-middle-l {
     position: absolute;
     left: 0;
     right: 0;
@@ -19685,7 +19559,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .fixed-row--m {
+  .fixed-row-middle-m {
     position: fixed;
     left: 0;
     right: 0;
@@ -19822,7 +19696,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .absolute-row--m {
+  .absolute-row-middle-m {
     position: absolute;
     left: 0;
     right: 0;
@@ -19981,7 +19855,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .fixed-row--s {
+  .fixed-row-middle-s {
     position: fixed;
     left: 0;
     right: 0;
@@ -20118,7 +19992,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .absolute-row--s {
+  .absolute-row-middle-s {
     position: absolute;
     left: 0;
     right: 0;
@@ -20277,7 +20151,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .fixed-row--xs {
+  .fixed-row-middle-xs {
     position: fixed;
     left: 0;
     right: 0;
@@ -20414,7 +20288,7 @@ table.responsive-table {
     left: initial;
     bottom: 0; }
 
-  .absolute-row--xs {
+  .absolute-row-middle-xs {
     position: absolute;
     left: 0;
     right: 0;
@@ -21687,7 +21561,7 @@ span.char-trade::before {
   -webkit-animation-delay: 2s;
   animation-delay: 2s; }
 
-[class*="anim-"].after-2sec {
+[class*="anim-"].after-3sec {
   -webkit-animation-delay: 3s;
   animation-delay: 3s; }
 

@@ -17,7 +17,7 @@ form.flex-form input, form.flex-form button {
   font-family: inherit;
 }
 
-form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.actions-box) button {
+form.flex-form.styled-form :not(.actions-box) input, form.flex-form.styled-form :not(.actions-box) button {
   border: none;
   border-bottom: 1px solid silver;
   outline: none;
@@ -35,14 +35,10 @@ form.flex-form.standard :not(.actions-box) input, form.flex-form.standard :not(.
   @include action-box;
 }
 
-label.required::after, [class*="field-box"].required label::after {
+label.required::after {
   content: "\002A";
   margin-left: 5px;
   color: #dc143c;
-}
-
-label.not-required::after {
-  content: '';
 }
 
 form.required::after {

@@ -96,17 +96,17 @@ table.border-rows-columns tr:last-of-type td {
   border-bottom-color: #c0c0c0;
 }
 
-table.standard thead tr {
+table.styled-table thead tr {
   border-bottom: 2px solid;
   border-bottom-color: #c0c0c0;
 }
 
-table.standard tbody tr:not(:first-of-type) {
+table.styled-table tbody tr:not(:first-of-type) {
   border-top: 1px solid;
   border-top-color: #c0c0c0;
 }
 
-table.airy-rows td, table.airy-rows th, table.standard td, table.standard th {
+table.airy-rows td, table.airy-rows th, table.styled-table td, table.styled-table th {
   padding: 10px;
 }
 

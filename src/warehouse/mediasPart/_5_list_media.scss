@@ -50,14 +50,6 @@
       margin-right: 0;
     }
 
-    @each $type in $LST_LIST-TYPES {
-      .list-style-#{$type}-#{nth($breakpoint, 1)},
-      .list-style-#{$type}-#{nth($breakpoint, 1)} > ul,
-      .list-style-#{$type}-#{nth($breakpoint, 1)} > ol {
-        list-style-type: #{$type};
-      }
-    }
-
     /* #########################  end : LISTE  ######################### */
 
   }

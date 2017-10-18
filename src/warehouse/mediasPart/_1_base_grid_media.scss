@@ -55,9 +55,14 @@
       display: inline;
     }
 
-    .inline-block-#{nth($breakpoint, 1)},
-    .inline-block-box-#{nth($breakpoint, 1)},
-    .inline.block-#{nth($breakpoint, 1)} {
+    .inline-block,
+    .inline-block-box,
+    .inline-#{nth($breakpoint, 1)}.block-#{nth($breakpoint, 1)},
+    .inline-box-#{nth($breakpoint, 1)}.block-#{nth($breakpoint, 1)},
+    .inline-#{nth($breakpoint, 1)}.block-box-#{nth($breakpoint, 1)},
+    .inline-box-#{nth($breakpoint, 1)}.block-box-#{nth($breakpoint, 1)},
+    .inline-#{nth($breakpoint, 1)}.show-#{nth($breakpoint, 1)},
+    .inline-box-#{nth($breakpoint, 1)}.show-#{nth($breakpoint, 1)} {
       display: inline-block;
     }
 
@@ -68,9 +73,12 @@
       display: flex;
     }
 
-    .inline-flex-#{nth($breakpoint, 1)},
-    .inline-flex-box-#{nth($breakpoint, 1)},
-    .inline-#{nth($breakpoint, 1)}.flex-#{nth($breakpoint, 1)} {
+    .inline-flex,
+    .inline-flex-box,
+    .inline-#{nth($breakpoint, 1)}.flex-#{nth($breakpoint, 1)},
+    .inline-box-#{nth($breakpoint, 1)}.flex-#{nth($breakpoint, 1)},
+    .inline-#{nth($breakpoint, 1)}.flex-box-#{nth($breakpoint, 1)},
+    .inline-box-#{nth($breakpoint, 1)}.flex-box-#{nth($breakpoint, 1)} {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
