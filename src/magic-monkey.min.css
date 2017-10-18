@@ -6507,9 +6507,7 @@ table.responsive-table {
 /* @@@@@@@@@@@@@@@@@@@@@@ Table MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 @media only screen and (max-width: 1600px) {
   table.airy-rows-xl td,
-  table.airy-rows-xl th,
-  table.styled-table-xl td,
-  table.styled-table-xl th {
+  table.airy-rows-xl th {
     padding: 10px; }
 
   table.large-rows-xl td,
@@ -6521,9 +6519,7 @@ table.responsive-table {
     padding: 30px; } }
 @media only screen and (max-width: 1200px) {
   table.airy-rows-l td,
-  table.airy-rows-l th,
-  table.styled-table-l td,
-  table.styled-table-l th {
+  table.airy-rows-l th {
     padding: 10px; }
 
   table.large-rows-l td,
@@ -6535,9 +6531,7 @@ table.responsive-table {
     padding: 30px; } }
 @media only screen and (max-width: 992px) {
   table.airy-rows-m td,
-  table.airy-rows-m th,
-  table.styled-table-m td,
-  table.styled-table-m th {
+  table.airy-rows-m th {
     padding: 10px; }
 
   table.large-rows-m td,
@@ -6549,9 +6543,7 @@ table.responsive-table {
     padding: 30px; } }
 @media only screen and (max-width: 768px) {
   table.airy-rows-s td,
-  table.airy-rows-s th,
-  table.styled-table-s td,
-  table.styled-table-s th {
+  table.airy-rows-s th {
     padding: 10px; }
 
   table.large-rows-s td,
@@ -6563,9 +6555,7 @@ table.responsive-table {
     padding: 30px; } }
 @media only screen and (max-width: 480px) {
   table.airy-rows-xs td,
-  table.airy-rows-xs th,
-  table.styled-table-xs td,
-  table.styled-table-xs th {
+  table.airy-rows-xs th {
     padding: 10px; }
 
   table.large-rows-xs td,

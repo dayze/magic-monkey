@@ -5,9 +5,7 @@
   @include respond-to(#{nth($breakpoint, 1)}) {
 
     table.airy-rows-#{nth($breakpoint, 1)} td,
-    table.airy-rows-#{nth($breakpoint, 1)} th,
-    table.styled-table-#{nth($breakpoint, 1)} td,
-    table.styled-table-#{nth($breakpoint, 1)} th {
+    table.airy-rows-#{nth($breakpoint, 1)} th {
       padding: 10px;
     }
 
