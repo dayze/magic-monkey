@@ -36,6 +36,28 @@ $TXT_SIZES: (
         'tiny': 0.5
 );
 
+/* array cursors */
+$CURSORS: (
+        'none',
+        'help',
+        'move',
+        'pointer',
+        'progress',
+        'wait',
+        'text', 'copy', 'move', 'not-allowed', 'col-resize', 'row-resize', 'zoom-in', 'zoom-out', 'grab', 'grabbing' 'n-resiez',
+        's-resiez',
+        'e-resiez',
+        'w-resiez',
+        'ne-resiez',
+        'nw-resiez',
+        'sw-resiez',
+        'se-resiez',
+        'ew-resiez',
+        'ns-resiez',
+        'nesw-resiez',
+        'nwse-resiez',
+);
+
 /* responsive breakpoints */
 $BREAKPOINTS: (
         'xl': (max-width: 1600px),

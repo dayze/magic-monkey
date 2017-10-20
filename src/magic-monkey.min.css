@@ -8,6 +8,7 @@
 /* list values */
 /* list position */
 /* array txt-size */
+/* array cursors */
 /* responsive breakpoints */
 /* ::::::::::::::::::::::::::::::: MIXINS FOR MEDIA QUERIES FORM */
 /* ::::: Warehouse ::::: */
@@ -17644,7 +17645,7 @@ table.responsive-table {
 .margin-10-right {
   margin-right: 10px; }
 
-.margin-5-right, span.char-copyright::before, span.char-brand::before, span.char-registred::before, span.char-paragraph::before, span.char-trade::before {
+.margin-5-right, span.char-copyright::before, span.char-registred::before, span.char-paragraph::before, span.char-trade::before {
   margin-right: 5px; }
 
 /* @@@@@@@@@@ TOP  */
@@ -21280,17 +21281,17 @@ table.responsive-table {
   padding: 15px;
   border-left: 4px solid; }
 
-.quote-box > p.quote-text {
+.quote-box > quote-text {
   margin: 0;
   font-style: italic; }
 
-.quote-box > span.quote-legend::before {
+.quote-box > quote-legend::before {
   content: '\007E\0020'; }
 
-.quote-box > span.quote-legend::after {
+.quote-box > quote-legend::after {
   content: '\0020\007E'; }
 
-.quote-box > span.quote-legend {
+.quote-box > quote-legend {
   text-align: center;
   display: block;
   margin-top: 15px; }
@@ -21322,10 +21323,6 @@ span.char-backquote-reverse::before {
 /* :::: copyright :::: */
 span.char-copyright::before {
   content: "\00a9"; }
-
-/* :::: brand :::: */
-span.char-brand::before {
-  content: "\00ae"; }
 
 /* registred */
 span.char-registred::before {
@@ -21569,5 +21566,89 @@ span.char-trade::before {
   animation-iteration-count: 2; }
 
 /* #########################  end : ANIMATION  ######################### */
+/* cursors */
+/* #########################  start : TRANSFORM  ######################### */
+.cursor-none, .hover-cursor-none {
+  cursor: none; }
+
+.cursor-help, .hover-cursor-help {
+  cursor: help; }
+
+.cursor-move, .hover-cursor-move {
+  cursor: move; }
+
+.cursor-pointer, .hover-cursor-pointer {
+  cursor: pointer; }
+
+.cursor-progress, .hover-cursor-progress {
+  cursor: progress; }
+
+.cursor-wait, .hover-cursor-wait {
+  cursor: wait; }
+
+.cursor-text, .hover-cursor-text {
+  cursor: text; }
+
+.cursor-copy, .hover-cursor-copy {
+  cursor: copy; }
+
+.cursor-move, .hover-cursor-move {
+  cursor: move; }
+
+.cursor-not-allowed, .hover-cursor-not-allowed {
+  cursor: not-allowed; }
+
+.cursor-col-resize, .hover-cursor-col-resize {
+  cursor: col-resize; }
+
+.cursor-row-resize, .hover-cursor-row-resize {
+  cursor: row-resize; }
+
+.cursor-zoom-in, .hover-cursor-zoom-in {
+  cursor: zoom-in; }
+
+.cursor-zoom-out, .hover-cursor-zoom-out {
+  cursor: zoom-out; }
+
+.cursor-grab, .hover-cursor-grab {
+  cursor: grab; }
+
+.cursor-grabbing, .hover-cursor-grabbing {
+  cursor: grabbing; }
+
+.cursor-s-resiez, .hover-cursor-s-resiez {
+  cursor: s-resiez; }
+
+.cursor-e-resiez, .hover-cursor-e-resiez {
+  cursor: e-resiez; }
+
+.cursor-w-resiez, .hover-cursor-w-resiez {
+  cursor: w-resiez; }
+
+.cursor-ne-resiez, .hover-cursor-ne-resiez {
+  cursor: ne-resiez; }
+
+.cursor-nw-resiez, .hover-cursor-nw-resiez {
+  cursor: nw-resiez; }
+
+.cursor-sw-resiez, .hover-cursor-sw-resiez {
+  cursor: sw-resiez; }
+
+.cursor-se-resiez, .hover-cursor-se-resiez {
+  cursor: se-resiez; }
+
+.cursor-ew-resiez, .hover-cursor-ew-resiez {
+  cursor: ew-resiez; }
+
+.cursor-ns-resiez, .hover-cursor-ns-resiez {
+  cursor: ns-resiez; }
+
+.cursor-nesw-resiez, .hover-cursor-nesw-resiez {
+  cursor: nesw-resiez; }
+
+.cursor-nwse-resiez, .hover-cursor-nwse-resiez {
+  cursor: nwse-resiez; }
+
+/* #########################  end : TRANSFORM  ######################### */
 
 /*# sourceMappingURL=magic-monkey.min.css.map */

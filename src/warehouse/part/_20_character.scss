@@ -5,20 +5,20 @@
   border-left: 4px solid;
 }
 
-.quote-box > p.quote-text {
+.quote-box > quote-text {
   margin: 0;
   font-style: italic;
 }
 
-.quote-box > span.quote-legend::before {
+.quote-box > quote-legend::before {
   content: '\007E\0020';
 }
 
-.quote-box > span.quote-legend::after {
+.quote-box > quote-legend::after {
   content: '\0020\007E';
 }
 
-.quote-box > span.quote-legend {
+.quote-box > quote-legend {
   text-align: center;
   display: block;
   margin-top: 15px;
@@ -57,12 +57,6 @@ span.char-backquote-reverse::before {
 /* :::: copyright :::: */
 span.char-copyright::before {
   content: "\00a9";
-  @extend .margin-5-right;
-}
-
-/* :::: brand :::: */
-span.char-brand::before {
-  content: "\00ae";
   @extend .margin-5-right;
 }
 
