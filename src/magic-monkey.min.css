@@ -21279,7 +21279,8 @@ table.responsive-table {
 /* #########################  start : QUOTE  ######################### */
 .quote-box {
   padding: 15px;
-  border-left: 4px solid; }
+  border-left: 4px solid;
+  margin: initial; }
 
 .quote-box > .quote-text {
   margin: 0;
@@ -21291,7 +21292,7 @@ table.responsive-table {
 .quote-box > .quote-legend::after {
   content: '\0020\007E'; }
 
-.quote-box > quote-legend {
+.quote-box > .quote-legend {
   text-align: center;
   display: block;
   margin-top: 15px; }
