@@ -2,7 +2,7 @@
 
 @each $cursor in $CURSORS {
 
-  .cursor-#{nth($cursor, 1)}, .hover-cursor-#{nth($cursor, 1)} {
+  .cursor-#{nth($cursor, 1)} {
     cursor: #{nth($cursor, 1)};
   }
 

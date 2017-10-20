@@ -6660,6 +6660,9 @@ table.responsive-table {
 .txt-b {
   font-weight: bold; }
 
+.txt-unset {
+  font-weight: unset; }
+
 .txt-i {
   font-style: italic; }
 
@@ -21569,86 +21572,83 @@ span.char-trade::before {
 /* #########################  end : ANIMATION  ######################### */
 /* cursors */
 /* #########################  start : TRANSFORM  ######################### */
-.cursor-none, .hover-cursor-none {
+.cursor-none {
   cursor: none; }
 
-.cursor-help, .hover-cursor-help {
+.cursor-help {
   cursor: help; }
 
-.cursor-move, .hover-cursor-move {
+.cursor-move {
   cursor: move; }
 
-.cursor-pointer, .hover-cursor-pointer {
+.cursor-pointer {
   cursor: pointer; }
 
-.cursor-progress, .hover-cursor-progress {
+.cursor-progress {
   cursor: progress; }
 
-.cursor-wait, .hover-cursor-wait {
+.cursor-wait {
   cursor: wait; }
 
-.cursor-text, .hover-cursor-text {
+.cursor-text {
   cursor: text; }
 
-.cursor-copy, .hover-cursor-copy {
+.cursor-copy {
   cursor: copy; }
 
-.cursor-move, .hover-cursor-move {
-  cursor: move; }
-
-.cursor-not-allowed, .hover-cursor-not-allowed {
+.cursor-not-allowed {
   cursor: not-allowed; }
 
-.cursor-col-resize, .hover-cursor-col-resize {
+.cursor-col-resize {
   cursor: col-resize; }
 
-.cursor-row-resize, .hover-cursor-row-resize {
+.cursor-row-resize {
   cursor: row-resize; }
 
-.cursor-zoom-in, .hover-cursor-zoom-in {
+.cursor-zoom-in {
   cursor: zoom-in; }
 
-.cursor-zoom-out, .hover-cursor-zoom-out {
+.cursor-zoom-out {
   cursor: zoom-out; }
 
-.cursor-grab, .hover-cursor-grab {
+.cursor-grab {
   cursor: grab; }
 
-.cursor-grabbing, .hover-cursor-grabbing {
+.cursor-grabbing {
   cursor: grabbing; }
 
-.cursor-s-resiez, .hover-cursor-s-resiez {
-  cursor: s-resiez; }
+.cursor-s-resize {
+  cursor: s-resize; }
 
-.cursor-e-resiez, .hover-cursor-e-resiez {
-  cursor: e-resiez; }
+.cursor-e-resize {
+  cursor: e-resize; }
 
-.cursor-w-resiez, .hover-cursor-w-resiez {
-  cursor: w-resiez; }
+.cursor-w-resize {
+  cursor: w-resize; }
 
-.cursor-ne-resiez, .hover-cursor-ne-resiez {
-  cursor: ne-resiez; }
+.cursor-ne-resize {
+  cursor: ne-resize; }
 
-.cursor-nw-resiez, .hover-cursor-nw-resiez {
-  cursor: nw-resiez; }
+.cursor-nw-resize {
+  cursor: nw-resize; }
 
-.cursor-sw-resiez, .hover-cursor-sw-resiez {
-  cursor: sw-resiez; }
+.cursor-sw-resize {
+  cursor: sw-resize; }
 
-.cursor-se-resiez, .hover-cursor-se-resiez {
-  cursor: se-resiez; }
+.cursor-se-resize {
+  cursor: se-resize; }
 
-.cursor-ew-resiez, .hover-cursor-ew-resiez {
-  cursor: ew-resiez; }
+.cursor-ew-resize {
+  cursor: ew-resize; }
 
-.cursor-ns-resiez, .hover-cursor-ns-resiez {
-  cursor: ns-resiez; }
+.cursor-ns-resize {
+  cursor: ns-resize; }
 
-.cursor-nesw-resiez, .hover-cursor-nesw-resiez {
-  cursor: nesw-resiez; }
+.cursor-nesw-resize {
+  cursor: nesw-resize; }
 
-.cursor-nwse-resiez, .hover-cursor-nwse-resiez {
-  cursor: nwse-resiez; }
+.cursor-nwse-resize {
+  cursor: nwse-resize; }
 
 /* #########################  end : TRANSFORM  ######################### */
 
