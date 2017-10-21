@@ -73,7 +73,7 @@ button[disabled] {
   -moz-backface-visibility: hidden;
   cursor: not-allowed; }
 
-hr.ellipse {
+hr.ellipse, div.ellipse {
   border: none;
   height: 1px;
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.4) 0, rgba(255, 255, 255, 0) 75%); }
