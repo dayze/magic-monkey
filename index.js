@@ -1,5 +1,6 @@
-var numFormmater = require('project-name');
+// Main package function
+function initMagicMonkey () {
+  require('./stylesheets/magic-monkey.min.css')
+}
 
-var formattedNum = numFormmater(234324234);
-
-console.log(formattedNum);
+initMagicMonkey()
