@@ -8,7 +8,7 @@ First, install the package using npm:
 
     npm install magic-monkey --save
 
-Next, import the stylesheet like following :
+Next, import the stylesheet like this :
 
     require('magic-monkey')
 
