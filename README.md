@@ -2,7 +2,7 @@
 
 ## Documentation
 
-Magic Monkey is a CSS library. You can check for the documentation at this address : http://www.magicmonkey.fr/
+Magic Monkey is a CSS library offering practical classes and a responsive grid based on Flexbox. You can check for the documentation at this address : http://www.magicmonkey.fr/
 
 ## Download
 
@@ -43,14 +43,14 @@ You can import the stylesheet in your javascript file
 
 #### ES6
 
-````bash
+````javascript
 import MagicMonkey from 'magic-monkey'
 new MagicMonkey().load()
 ````
 
 #### CommonJS
 
-````bash
+````javascript
 const MagicMonkey = require('magic-monkey')
 new MagicMonkey().load()
 ````
