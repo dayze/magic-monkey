@@ -1,0 +1,37 @@
+/* #########################  start : TRUNCATE  ######################### */
+
+[class*="truncate-"] {
+  overflow: hidden;
+  padding: 0;
+}
+
+@for $i from 1 through 15 {
+
+  .truncate-#{$i} {
+    display: -webkit-box;
+    -webkit-line-clamp: #{$i};
+    -webkit-box-orient: vertical;
+  }
+  /*
+    .truncate-fade-#{$i} {
+      position: relative;
+      height: calc(1.8em * #{$i})
+    }
+
+    .truncate-fade-#{$i}:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
+}
+
+.untruncate {
+  -webkit-line-clamp: unset;
+}
+
+/* #########################  end : TRUNCATE  ######################### */

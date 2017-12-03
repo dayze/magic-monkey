@@ -1,20 +1,59 @@
-# magic-monkey
+# Magic Monkey
 
-A package that contains the minified version of the framework CSS Magic Monkey.
+## Documentation
 
-## Usage
+Magic Monkey is a CSS library. You can check for the documentation at this address : http://www.magicmonkey.fr/
 
-First, install the package using npm:
+## Download
 
-    npm install magic-monkey --save
+1. Get the Magic Monkey library on GitHub
 
-Next, import the stylesheet like this :
+2. Add the stylesheet where you wish in your Web project
 
-    require('magic-monkey')
+3. Charge it in your HTML page like this : ( don't forget the meta tag ! )
 
-Then, you can check for the documentation at this address :
+````html
+<head>
+  ...
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href=".../path/to/magicmonkey.min.css" type="text/css">
+  ...
+</head>
+````
 
-http://comming-asap.com
+## Install with NPM
+
+Magic Monkey can be installed thanks to NPM ( https://www.npmjs.com/package/magic-monkey ) :
+
+````bash
+npm install magic-monkey --save
+````
+
+## Install with Bower
+
+Magic Monkey can be installed thanks to Bower :
+
+````bash
+bower install magic-monkey
+````
+
+## Import with Webpack
+
+You can import the stylesheet in your javascript file
+
+#### ES6
+
+````bash
+import MagicMonkey from 'magic-monkey'
+new MagicMonkey().load()
+````
+
+#### CommonJS
+
+````bash
+const MagicMonkey = require('magic-monkey')
+new MagicMonkey().load()
+````
    
 
 ## License

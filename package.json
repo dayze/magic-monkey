@@ -1,7 +1,7 @@
 {
   "name": "magic-monkey",
-  "version": "1.0.29",
-  "description": "Magic Monkey is a framework CSS offering practical classes and a grid based on Flexbox.",
+  "version": "1.0.30",
+  "description": "Magic Monkey is a CSS library offering practical classes and a responsive grid based on Flexbox.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/jeremy-habit/magic-monkey/issues"
   },
-  "homepage": "https://github.com/jeremy-habit/magic-monkey#readme"
+  "homepage": "https://github.com/jeremy-habit/magic-monkey#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }

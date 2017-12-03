@@ -1,6 +1,23 @@
-// Main package function
-function initMagicMonkey () {
-  require('./stylesheets/magic-monkey.min.css')
+/* ::::: import with class */
+
+/* example :
+
+---
+import MagicMonkey from 'magic-monkey'
+new MagicMonkey().load()
+---
+
+*/
+
+class MagicMonkey {
+
+  constructor () {
+    /*this.load()*/
+  }
+
+  load () {
+    require("./stylesheets/magic-monkey.min.css")
+  }
 }
 
-initMagicMonkey()
+module.exports = MagicMonkey

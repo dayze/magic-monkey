@@ -1,0 +1,41 @@
+/* @@@@@@@@@@@@@@@@@@@@@@ START TRUNCATE MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@each $breakpoint in $BREAKPOINTS {
+
+  @include respond-to(#{nth($breakpoint, 1)}) {
+
+    @for $i from 1 through 15 {
+
+      .truncate-#{$i}-#{nth($breakpoint, 1)} {
+        display: -webkit-box;
+        -webkit-line-clamp: #{$i};
+        -webkit-box-orient: vertical;
+      }
+      /*
+            .truncate-fade-#{$i}-#{nth($breakpoint, 1)} {
+              position: relative;
+              height: calc(1.8em * #{$i})
+            }
+
+            .truncate-fade-#{$i}-#{nth($breakpoint, 1)}:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+    }
+
+    .untruncate-#{nth($breakpoint, 1)} {
+      -webkit-line-clamp: unset;
+    }
+
+
+  }
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ END TRUNCATE MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
