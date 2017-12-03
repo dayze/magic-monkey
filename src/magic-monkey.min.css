@@ -6600,7 +6600,7 @@ table.responsive-table {
   font-size: 4rem; }
 
 .txt-size-giant {
-  font-size: 3.5rem; }
+  font-size: 3rem; }
 
 .txt-size-big {
   font-size: 2rem; }
@@ -6702,7 +6702,7 @@ table.responsive-table {
     font-size: 4rem; }
 
   .txt-size-giant-xl {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   .txt-size-big-xl {
     font-size: 2rem; }
@@ -6736,7 +6736,7 @@ table.responsive-table {
     font-size: 4rem; }
 
   .txt-size-giant-l {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   .txt-size-big-l {
     font-size: 2rem; }
@@ -6770,7 +6770,7 @@ table.responsive-table {
     font-size: 4rem; }
 
   .txt-size-giant-m {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   .txt-size-big-m {
     font-size: 2rem; }
@@ -6804,7 +6804,7 @@ table.responsive-table {
     font-size: 4rem; }
 
   .txt-size-giant-s {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   .txt-size-big-s {
     font-size: 2rem; }
@@ -6838,7 +6838,7 @@ table.responsive-table {
     font-size: 4rem; }
 
   .txt-size-giant-xs {
-    font-size: 3.5rem; }
+    font-size: 3rem; }
 
   .txt-size-big-xs {
     font-size: 2rem; }
@@ -21662,316 +21662,316 @@ span.char-trade::before {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-1 {
-    position: relative;
-    height: calc(1.8em * 1)
-  }
+  /*
+    .truncate-fade-1 {
+      position: relative;
+      height: calc(1.8em * 1)
+    }
 
-  .truncate-fade-1:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-1:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-2 {
-    position: relative;
-    height: calc(1.8em * 2)
-  }
+  /*
+    .truncate-fade-2 {
+      position: relative;
+      height: calc(1.8em * 2)
+    }
 
-  .truncate-fade-2:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-2:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-3 {
-    position: relative;
-    height: calc(1.8em * 3)
-  }
+  /*
+    .truncate-fade-3 {
+      position: relative;
+      height: calc(1.8em * 3)
+    }
 
-  .truncate-fade-3:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-3:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-4 {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-4 {
-    position: relative;
-    height: calc(1.8em * 4)
-  }
+  /*
+    .truncate-fade-4 {
+      position: relative;
+      height: calc(1.8em * 4)
+    }
 
-  .truncate-fade-4:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-4:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-5 {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-5 {
-    position: relative;
-    height: calc(1.8em * 5)
-  }
+  /*
+    .truncate-fade-5 {
+      position: relative;
+      height: calc(1.8em * 5)
+    }
 
-  .truncate-fade-5:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-5:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-6 {
   display: -webkit-box;
   -webkit-line-clamp: 6;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-6 {
-    position: relative;
-    height: calc(1.8em * 6)
-  }
+  /*
+    .truncate-fade-6 {
+      position: relative;
+      height: calc(1.8em * 6)
+    }
 
-  .truncate-fade-6:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-6:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-7 {
   display: -webkit-box;
   -webkit-line-clamp: 7;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-7 {
-    position: relative;
-    height: calc(1.8em * 7)
-  }
+  /*
+    .truncate-fade-7 {
+      position: relative;
+      height: calc(1.8em * 7)
+    }
 
-  .truncate-fade-7:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-7:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-8 {
   display: -webkit-box;
   -webkit-line-clamp: 8;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-8 {
-    position: relative;
-    height: calc(1.8em * 8)
-  }
+  /*
+    .truncate-fade-8 {
+      position: relative;
+      height: calc(1.8em * 8)
+    }
 
-  .truncate-fade-8:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-8:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-9 {
   display: -webkit-box;
   -webkit-line-clamp: 9;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-9 {
-    position: relative;
-    height: calc(1.8em * 9)
-  }
+  /*
+    .truncate-fade-9 {
+      position: relative;
+      height: calc(1.8em * 9)
+    }
 
-  .truncate-fade-9:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-9:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-10 {
   display: -webkit-box;
   -webkit-line-clamp: 10;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-10 {
-    position: relative;
-    height: calc(1.8em * 10)
-  }
+  /*
+    .truncate-fade-10 {
+      position: relative;
+      height: calc(1.8em * 10)
+    }
 
-  .truncate-fade-10:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-10:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-11 {
   display: -webkit-box;
   -webkit-line-clamp: 11;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-11 {
-    position: relative;
-    height: calc(1.8em * 11)
-  }
+  /*
+    .truncate-fade-11 {
+      position: relative;
+      height: calc(1.8em * 11)
+    }
 
-  .truncate-fade-11:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-11:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-12 {
   display: -webkit-box;
   -webkit-line-clamp: 12;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-12 {
-    position: relative;
-    height: calc(1.8em * 12)
-  }
+  /*
+    .truncate-fade-12 {
+      position: relative;
+      height: calc(1.8em * 12)
+    }
 
-  .truncate-fade-12:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-12:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-13 {
   display: -webkit-box;
   -webkit-line-clamp: 13;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-13 {
-    position: relative;
-    height: calc(1.8em * 13)
-  }
+  /*
+    .truncate-fade-13 {
+      position: relative;
+      height: calc(1.8em * 13)
+    }
 
-  .truncate-fade-13:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-13:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-14 {
   display: -webkit-box;
   -webkit-line-clamp: 14;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-14 {
-    position: relative;
-    height: calc(1.8em * 14)
-  }
+  /*
+    .truncate-fade-14 {
+      position: relative;
+      height: calc(1.8em * 14)
+    }
 
-  .truncate-fade-14:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-14:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .truncate-15 {
   display: -webkit-box;
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical; }
 
-/*
-  .truncate-fade-15 {
-    position: relative;
-    height: calc(1.8em * 15)
-  }
+  /*
+    .truncate-fade-15 {
+      position: relative;
+      height: calc(1.8em * 15)
+    }
 
-  .truncate-fade-15:after {
-    content: "";
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 10%;
-    height: 1.8em;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-  }*/
+    .truncate-fade-15:after {
+      content: "";
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 10%;
+      height: 1.8em;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+    }*/
 .untruncate {
   -webkit-line-clamp: unset; }
 
@@ -21983,1580 +21983,1590 @@ span.char-trade::before {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-1-xl {
-          position: relative;
-          height: calc(1.8em * 1)
-        }
-  
-        .truncate-fade-1-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-1-xl {
+              position: relative;
+              height: calc(1.8em * 1)
+            }
+
+            .truncate-fade-1-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-2-xl {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-2-xl {
-          position: relative;
-          height: calc(1.8em * 2)
-        }
-  
-        .truncate-fade-2-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-2-xl {
+              position: relative;
+              height: calc(1.8em * 2)
+            }
+
+            .truncate-fade-2-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-3-xl {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-3-xl {
-          position: relative;
-          height: calc(1.8em * 3)
-        }
-  
-        .truncate-fade-3-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-3-xl {
+              position: relative;
+              height: calc(1.8em * 3)
+            }
+
+            .truncate-fade-3-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-4-xl {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-4-xl {
-          position: relative;
-          height: calc(1.8em * 4)
-        }
-  
-        .truncate-fade-4-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-4-xl {
+              position: relative;
+              height: calc(1.8em * 4)
+            }
+
+            .truncate-fade-4-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-5-xl {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-5-xl {
-          position: relative;
-          height: calc(1.8em * 5)
-        }
-  
-        .truncate-fade-5-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-5-xl {
+              position: relative;
+              height: calc(1.8em * 5)
+            }
+
+            .truncate-fade-5-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-6-xl {
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-6-xl {
-          position: relative;
-          height: calc(1.8em * 6)
-        }
-  
-        .truncate-fade-6-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-6-xl {
+              position: relative;
+              height: calc(1.8em * 6)
+            }
+
+            .truncate-fade-6-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-7-xl {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-7-xl {
-          position: relative;
-          height: calc(1.8em * 7)
-        }
-  
-        .truncate-fade-7-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-7-xl {
+              position: relative;
+              height: calc(1.8em * 7)
+            }
+
+            .truncate-fade-7-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-8-xl {
     display: -webkit-box;
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-8-xl {
-          position: relative;
-          height: calc(1.8em * 8)
-        }
-  
-        .truncate-fade-8-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-8-xl {
+              position: relative;
+              height: calc(1.8em * 8)
+            }
+
+            .truncate-fade-8-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-9-xl {
     display: -webkit-box;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-9-xl {
-          position: relative;
-          height: calc(1.8em * 9)
-        }
-  
-        .truncate-fade-9-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-9-xl {
+              position: relative;
+              height: calc(1.8em * 9)
+            }
+
+            .truncate-fade-9-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-10-xl {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-10-xl {
-          position: relative;
-          height: calc(1.8em * 10)
-        }
-  
-        .truncate-fade-10-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-10-xl {
+              position: relative;
+              height: calc(1.8em * 10)
+            }
+
+            .truncate-fade-10-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-11-xl {
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-11-xl {
-          position: relative;
-          height: calc(1.8em * 11)
-        }
-  
-        .truncate-fade-11-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-11-xl {
+              position: relative;
+              height: calc(1.8em * 11)
+            }
+
+            .truncate-fade-11-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-12-xl {
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-12-xl {
-          position: relative;
-          height: calc(1.8em * 12)
-        }
-  
-        .truncate-fade-12-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-12-xl {
+              position: relative;
+              height: calc(1.8em * 12)
+            }
+
+            .truncate-fade-12-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-13-xl {
     display: -webkit-box;
     -webkit-line-clamp: 13;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-13-xl {
-          position: relative;
-          height: calc(1.8em * 13)
-        }
-  
-        .truncate-fade-13-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-13-xl {
+              position: relative;
+              height: calc(1.8em * 13)
+            }
+
+            .truncate-fade-13-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-14-xl {
     display: -webkit-box;
     -webkit-line-clamp: 14;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-14-xl {
-          position: relative;
-          height: calc(1.8em * 14)
-        }
-  
-        .truncate-fade-14-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-14-xl {
+              position: relative;
+              height: calc(1.8em * 14)
+            }
+
+            .truncate-fade-14-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-15-xl {
     display: -webkit-box;
     -webkit-line-clamp: 15;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-15-xl {
-          position: relative;
-          height: calc(1.8em * 15)
-        }
-  
-        .truncate-fade-15-xl:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/ }
+      /*
+            .truncate-fade-15-xl {
+              position: relative;
+              height: calc(1.8em * 15)
+            }
+
+            .truncate-fade-15-xl:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+  .untruncate-xl {
+    -webkit-line-clamp: unset; } }
 @media only screen and (max-width: 1200px) {
   .truncate-1-l {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-1-l {
-          position: relative;
-          height: calc(1.8em * 1)
-        }
-  
-        .truncate-fade-1-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-1-l {
+              position: relative;
+              height: calc(1.8em * 1)
+            }
+
+            .truncate-fade-1-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-2-l {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-2-l {
-          position: relative;
-          height: calc(1.8em * 2)
-        }
-  
-        .truncate-fade-2-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-2-l {
+              position: relative;
+              height: calc(1.8em * 2)
+            }
+
+            .truncate-fade-2-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-3-l {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-3-l {
-          position: relative;
-          height: calc(1.8em * 3)
-        }
-  
-        .truncate-fade-3-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-3-l {
+              position: relative;
+              height: calc(1.8em * 3)
+            }
+
+            .truncate-fade-3-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-4-l {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-4-l {
-          position: relative;
-          height: calc(1.8em * 4)
-        }
-  
-        .truncate-fade-4-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-4-l {
+              position: relative;
+              height: calc(1.8em * 4)
+            }
+
+            .truncate-fade-4-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-5-l {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-5-l {
-          position: relative;
-          height: calc(1.8em * 5)
-        }
-  
-        .truncate-fade-5-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-5-l {
+              position: relative;
+              height: calc(1.8em * 5)
+            }
+
+            .truncate-fade-5-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-6-l {
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-6-l {
-          position: relative;
-          height: calc(1.8em * 6)
-        }
-  
-        .truncate-fade-6-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-6-l {
+              position: relative;
+              height: calc(1.8em * 6)
+            }
+
+            .truncate-fade-6-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-7-l {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-7-l {
-          position: relative;
-          height: calc(1.8em * 7)
-        }
-  
-        .truncate-fade-7-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-7-l {
+              position: relative;
+              height: calc(1.8em * 7)
+            }
+
+            .truncate-fade-7-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-8-l {
     display: -webkit-box;
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-8-l {
-          position: relative;
-          height: calc(1.8em * 8)
-        }
-  
-        .truncate-fade-8-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-8-l {
+              position: relative;
+              height: calc(1.8em * 8)
+            }
+
+            .truncate-fade-8-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-9-l {
     display: -webkit-box;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-9-l {
-          position: relative;
-          height: calc(1.8em * 9)
-        }
-  
-        .truncate-fade-9-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-9-l {
+              position: relative;
+              height: calc(1.8em * 9)
+            }
+
+            .truncate-fade-9-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-10-l {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-10-l {
-          position: relative;
-          height: calc(1.8em * 10)
-        }
-  
-        .truncate-fade-10-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-10-l {
+              position: relative;
+              height: calc(1.8em * 10)
+            }
+
+            .truncate-fade-10-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-11-l {
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-11-l {
-          position: relative;
-          height: calc(1.8em * 11)
-        }
-  
-        .truncate-fade-11-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-11-l {
+              position: relative;
+              height: calc(1.8em * 11)
+            }
+
+            .truncate-fade-11-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-12-l {
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-12-l {
-          position: relative;
-          height: calc(1.8em * 12)
-        }
-  
-        .truncate-fade-12-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-12-l {
+              position: relative;
+              height: calc(1.8em * 12)
+            }
+
+            .truncate-fade-12-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-13-l {
     display: -webkit-box;
     -webkit-line-clamp: 13;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-13-l {
-          position: relative;
-          height: calc(1.8em * 13)
-        }
-  
-        .truncate-fade-13-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-13-l {
+              position: relative;
+              height: calc(1.8em * 13)
+            }
+
+            .truncate-fade-13-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-14-l {
     display: -webkit-box;
     -webkit-line-clamp: 14;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-14-l {
-          position: relative;
-          height: calc(1.8em * 14)
-        }
-  
-        .truncate-fade-14-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-14-l {
+              position: relative;
+              height: calc(1.8em * 14)
+            }
+
+            .truncate-fade-14-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-15-l {
     display: -webkit-box;
     -webkit-line-clamp: 15;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-15-l {
-          position: relative;
-          height: calc(1.8em * 15)
-        }
-  
-        .truncate-fade-15-l:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/ }
+      /*
+            .truncate-fade-15-l {
+              position: relative;
+              height: calc(1.8em * 15)
+            }
+
+            .truncate-fade-15-l:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+  .untruncate-l {
+    -webkit-line-clamp: unset; } }
 @media only screen and (max-width: 992px) {
   .truncate-1-m {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-1-m {
-          position: relative;
-          height: calc(1.8em * 1)
-        }
-  
-        .truncate-fade-1-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-1-m {
+              position: relative;
+              height: calc(1.8em * 1)
+            }
+
+            .truncate-fade-1-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-2-m {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-2-m {
-          position: relative;
-          height: calc(1.8em * 2)
-        }
-  
-        .truncate-fade-2-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-2-m {
+              position: relative;
+              height: calc(1.8em * 2)
+            }
+
+            .truncate-fade-2-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-3-m {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-3-m {
-          position: relative;
-          height: calc(1.8em * 3)
-        }
-  
-        .truncate-fade-3-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-3-m {
+              position: relative;
+              height: calc(1.8em * 3)
+            }
+
+            .truncate-fade-3-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-4-m {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-4-m {
-          position: relative;
-          height: calc(1.8em * 4)
-        }
-  
-        .truncate-fade-4-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-4-m {
+              position: relative;
+              height: calc(1.8em * 4)
+            }
+
+            .truncate-fade-4-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-5-m {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-5-m {
-          position: relative;
-          height: calc(1.8em * 5)
-        }
-  
-        .truncate-fade-5-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-5-m {
+              position: relative;
+              height: calc(1.8em * 5)
+            }
+
+            .truncate-fade-5-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-6-m {
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-6-m {
-          position: relative;
-          height: calc(1.8em * 6)
-        }
-  
-        .truncate-fade-6-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-6-m {
+              position: relative;
+              height: calc(1.8em * 6)
+            }
+
+            .truncate-fade-6-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-7-m {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-7-m {
-          position: relative;
-          height: calc(1.8em * 7)
-        }
-  
-        .truncate-fade-7-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-7-m {
+              position: relative;
+              height: calc(1.8em * 7)
+            }
+
+            .truncate-fade-7-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-8-m {
     display: -webkit-box;
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-8-m {
-          position: relative;
-          height: calc(1.8em * 8)
-        }
-  
-        .truncate-fade-8-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-8-m {
+              position: relative;
+              height: calc(1.8em * 8)
+            }
+
+            .truncate-fade-8-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-9-m {
     display: -webkit-box;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-9-m {
-          position: relative;
-          height: calc(1.8em * 9)
-        }
-  
-        .truncate-fade-9-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-9-m {
+              position: relative;
+              height: calc(1.8em * 9)
+            }
+
+            .truncate-fade-9-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-10-m {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-10-m {
-          position: relative;
-          height: calc(1.8em * 10)
-        }
-  
-        .truncate-fade-10-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-10-m {
+              position: relative;
+              height: calc(1.8em * 10)
+            }
+
+            .truncate-fade-10-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-11-m {
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-11-m {
-          position: relative;
-          height: calc(1.8em * 11)
-        }
-  
-        .truncate-fade-11-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-11-m {
+              position: relative;
+              height: calc(1.8em * 11)
+            }
+
+            .truncate-fade-11-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-12-m {
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-12-m {
-          position: relative;
-          height: calc(1.8em * 12)
-        }
-  
-        .truncate-fade-12-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-12-m {
+              position: relative;
+              height: calc(1.8em * 12)
+            }
+
+            .truncate-fade-12-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-13-m {
     display: -webkit-box;
     -webkit-line-clamp: 13;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-13-m {
-          position: relative;
-          height: calc(1.8em * 13)
-        }
-  
-        .truncate-fade-13-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-13-m {
+              position: relative;
+              height: calc(1.8em * 13)
+            }
+
+            .truncate-fade-13-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-14-m {
     display: -webkit-box;
     -webkit-line-clamp: 14;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-14-m {
-          position: relative;
-          height: calc(1.8em * 14)
-        }
-  
-        .truncate-fade-14-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-14-m {
+              position: relative;
+              height: calc(1.8em * 14)
+            }
+
+            .truncate-fade-14-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-15-m {
     display: -webkit-box;
     -webkit-line-clamp: 15;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-15-m {
-          position: relative;
-          height: calc(1.8em * 15)
-        }
-  
-        .truncate-fade-15-m:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/ }
+      /*
+            .truncate-fade-15-m {
+              position: relative;
+              height: calc(1.8em * 15)
+            }
+
+            .truncate-fade-15-m:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+  .untruncate-m {
+    -webkit-line-clamp: unset; } }
 @media only screen and (max-width: 768px) {
   .truncate-1-s {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-1-s {
-          position: relative;
-          height: calc(1.8em * 1)
-        }
-  
-        .truncate-fade-1-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-1-s {
+              position: relative;
+              height: calc(1.8em * 1)
+            }
+
+            .truncate-fade-1-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-2-s {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-2-s {
-          position: relative;
-          height: calc(1.8em * 2)
-        }
-  
-        .truncate-fade-2-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-2-s {
+              position: relative;
+              height: calc(1.8em * 2)
+            }
+
+            .truncate-fade-2-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-3-s {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-3-s {
-          position: relative;
-          height: calc(1.8em * 3)
-        }
-  
-        .truncate-fade-3-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-3-s {
+              position: relative;
+              height: calc(1.8em * 3)
+            }
+
+            .truncate-fade-3-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-4-s {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-4-s {
-          position: relative;
-          height: calc(1.8em * 4)
-        }
-  
-        .truncate-fade-4-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-4-s {
+              position: relative;
+              height: calc(1.8em * 4)
+            }
+
+            .truncate-fade-4-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-5-s {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-5-s {
-          position: relative;
-          height: calc(1.8em * 5)
-        }
-  
-        .truncate-fade-5-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-5-s {
+              position: relative;
+              height: calc(1.8em * 5)
+            }
+
+            .truncate-fade-5-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-6-s {
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-6-s {
-          position: relative;
-          height: calc(1.8em * 6)
-        }
-  
-        .truncate-fade-6-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-6-s {
+              position: relative;
+              height: calc(1.8em * 6)
+            }
+
+            .truncate-fade-6-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-7-s {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-7-s {
-          position: relative;
-          height: calc(1.8em * 7)
-        }
-  
-        .truncate-fade-7-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-7-s {
+              position: relative;
+              height: calc(1.8em * 7)
+            }
+
+            .truncate-fade-7-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-8-s {
     display: -webkit-box;
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-8-s {
-          position: relative;
-          height: calc(1.8em * 8)
-        }
-  
-        .truncate-fade-8-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-8-s {
+              position: relative;
+              height: calc(1.8em * 8)
+            }
+
+            .truncate-fade-8-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-9-s {
     display: -webkit-box;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-9-s {
-          position: relative;
-          height: calc(1.8em * 9)
-        }
-  
-        .truncate-fade-9-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-9-s {
+              position: relative;
+              height: calc(1.8em * 9)
+            }
+
+            .truncate-fade-9-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-10-s {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-10-s {
-          position: relative;
-          height: calc(1.8em * 10)
-        }
-  
-        .truncate-fade-10-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-10-s {
+              position: relative;
+              height: calc(1.8em * 10)
+            }
+
+            .truncate-fade-10-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-11-s {
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-11-s {
-          position: relative;
-          height: calc(1.8em * 11)
-        }
-  
-        .truncate-fade-11-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-11-s {
+              position: relative;
+              height: calc(1.8em * 11)
+            }
+
+            .truncate-fade-11-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-12-s {
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-12-s {
-          position: relative;
-          height: calc(1.8em * 12)
-        }
-  
-        .truncate-fade-12-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-12-s {
+              position: relative;
+              height: calc(1.8em * 12)
+            }
+
+            .truncate-fade-12-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-13-s {
     display: -webkit-box;
     -webkit-line-clamp: 13;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-13-s {
-          position: relative;
-          height: calc(1.8em * 13)
-        }
-  
-        .truncate-fade-13-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-13-s {
+              position: relative;
+              height: calc(1.8em * 13)
+            }
+
+            .truncate-fade-13-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-14-s {
     display: -webkit-box;
     -webkit-line-clamp: 14;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-14-s {
-          position: relative;
-          height: calc(1.8em * 14)
-        }
-  
-        .truncate-fade-14-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-14-s {
+              position: relative;
+              height: calc(1.8em * 14)
+            }
+
+            .truncate-fade-14-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-15-s {
     display: -webkit-box;
     -webkit-line-clamp: 15;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-15-s {
-          position: relative;
-          height: calc(1.8em * 15)
-        }
-  
-        .truncate-fade-15-s:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/ }
+      /*
+            .truncate-fade-15-s {
+              position: relative;
+              height: calc(1.8em * 15)
+            }
+
+            .truncate-fade-15-s:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+  .untruncate-s {
+    -webkit-line-clamp: unset; } }
 @media only screen and (max-width: 480px) {
   .truncate-1-xs {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-1-xs {
-          position: relative;
-          height: calc(1.8em * 1)
-        }
-  
-        .truncate-fade-1-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-1-xs {
+              position: relative;
+              height: calc(1.8em * 1)
+            }
+
+            .truncate-fade-1-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-2-xs {
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-2-xs {
-          position: relative;
-          height: calc(1.8em * 2)
-        }
-  
-        .truncate-fade-2-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-2-xs {
+              position: relative;
+              height: calc(1.8em * 2)
+            }
+
+            .truncate-fade-2-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-3-xs {
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-3-xs {
-          position: relative;
-          height: calc(1.8em * 3)
-        }
-  
-        .truncate-fade-3-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-3-xs {
+              position: relative;
+              height: calc(1.8em * 3)
+            }
+
+            .truncate-fade-3-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-4-xs {
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-4-xs {
-          position: relative;
-          height: calc(1.8em * 4)
-        }
-  
-        .truncate-fade-4-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-4-xs {
+              position: relative;
+              height: calc(1.8em * 4)
+            }
+
+            .truncate-fade-4-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-5-xs {
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-5-xs {
-          position: relative;
-          height: calc(1.8em * 5)
-        }
-  
-        .truncate-fade-5-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-5-xs {
+              position: relative;
+              height: calc(1.8em * 5)
+            }
+
+            .truncate-fade-5-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-6-xs {
     display: -webkit-box;
     -webkit-line-clamp: 6;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-6-xs {
-          position: relative;
-          height: calc(1.8em * 6)
-        }
-  
-        .truncate-fade-6-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-6-xs {
+              position: relative;
+              height: calc(1.8em * 6)
+            }
+
+            .truncate-fade-6-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-7-xs {
     display: -webkit-box;
     -webkit-line-clamp: 7;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-7-xs {
-          position: relative;
-          height: calc(1.8em * 7)
-        }
-  
-        .truncate-fade-7-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-7-xs {
+              position: relative;
+              height: calc(1.8em * 7)
+            }
+
+            .truncate-fade-7-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-8-xs {
     display: -webkit-box;
     -webkit-line-clamp: 8;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-8-xs {
-          position: relative;
-          height: calc(1.8em * 8)
-        }
-  
-        .truncate-fade-8-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-8-xs {
+              position: relative;
+              height: calc(1.8em * 8)
+            }
+
+            .truncate-fade-8-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-9-xs {
     display: -webkit-box;
     -webkit-line-clamp: 9;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-9-xs {
-          position: relative;
-          height: calc(1.8em * 9)
-        }
-  
-        .truncate-fade-9-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-9-xs {
+              position: relative;
+              height: calc(1.8em * 9)
+            }
+
+            .truncate-fade-9-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-10-xs {
     display: -webkit-box;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-10-xs {
-          position: relative;
-          height: calc(1.8em * 10)
-        }
-  
-        .truncate-fade-10-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-10-xs {
+              position: relative;
+              height: calc(1.8em * 10)
+            }
+
+            .truncate-fade-10-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-11-xs {
     display: -webkit-box;
     -webkit-line-clamp: 11;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-11-xs {
-          position: relative;
-          height: calc(1.8em * 11)
-        }
-  
-        .truncate-fade-11-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-11-xs {
+              position: relative;
+              height: calc(1.8em * 11)
+            }
+
+            .truncate-fade-11-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-12-xs {
     display: -webkit-box;
     -webkit-line-clamp: 12;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-12-xs {
-          position: relative;
-          height: calc(1.8em * 12)
-        }
-  
-        .truncate-fade-12-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-12-xs {
+              position: relative;
+              height: calc(1.8em * 12)
+            }
+
+            .truncate-fade-12-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-13-xs {
     display: -webkit-box;
     -webkit-line-clamp: 13;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-13-xs {
-          position: relative;
-          height: calc(1.8em * 13)
-        }
-  
-        .truncate-fade-13-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-13-xs {
+              position: relative;
+              height: calc(1.8em * 13)
+            }
+
+            .truncate-fade-13-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-14-xs {
     display: -webkit-box;
     -webkit-line-clamp: 14;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-14-xs {
-          position: relative;
-          height: calc(1.8em * 14)
-        }
-  
-        .truncate-fade-14-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/
+      /*
+            .truncate-fade-14-xs {
+              position: relative;
+              height: calc(1.8em * 14)
+            }
+
+            .truncate-fade-14-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
   .truncate-15-xs {
     display: -webkit-box;
     -webkit-line-clamp: 15;
     -webkit-box-orient: vertical; }
 
-  /*
-        .truncate-fade-15-xs {
-          position: relative;
-          height: calc(1.8em * 15)
-        }
-  
-        .truncate-fade-15-xs:after {
-          content: "";
-          text-align: right;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 10%;
-          height: 1.8em;
-          background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
-        }*/ }
+      /*
+            .truncate-fade-15-xs {
+              position: relative;
+              height: calc(1.8em * 15)
+            }
+
+            .truncate-fade-15-xs:after {
+              content: "";
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              width: 10%;
+              height: 1.8em;
+              background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 100%);
+            }*/
+  .untruncate-xs {
+    -webkit-line-clamp: unset; } }
 /* @@@@@@@@@@@@@@@@@@@@@@ END TRUNCATE MEDIA @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 /*# sourceMappingURL=magic-monkey.min.css.map */
