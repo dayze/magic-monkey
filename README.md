@@ -44,15 +44,13 @@ You can import the stylesheet in your javascript file
 #### ES6
 
 ````javascript
-import MagicMonkey from 'magic-monkey'
-new MagicMonkey().load()
+import 'magic-monkey'
 ````
 
 #### CommonJS
 
 ````javascript
-const MagicMonkey = require('magic-monkey')
-new MagicMonkey().load()
+require('magic-monkey')
 ````
    
 

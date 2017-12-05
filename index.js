@@ -9,10 +9,11 @@ new MagicMonkey().load()
 
 */
 
+/*
 class MagicMonkey {
 
   constructor () {
-    /*this.load()*/
+    /!*this.load()*!/
   }
 
   load () {
@@ -20,4 +21,7 @@ class MagicMonkey {
   }
 }
 
-module.exports = MagicMonkey
+module.exports = MagicMonkey*/
+
+
+require('stylesheets/magic-monkey.min.css')
